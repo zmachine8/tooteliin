@@ -1,0 +1,12 @@
+name: tooteliin
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - numpy
+      - matplotlib
+      - opencv-python
+      - dynamsoft-barcode-reader-bundle
