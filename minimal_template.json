@@ -1,0 +1,73 @@
+{
+    "BarcodeReaderTaskSettingOptions": [
+        {
+            "BarcodeFormatIds": [
+                "BF_EAN_13"
+            ],
+            "MaxThreadsInOneTask": 4,
+            "ExpectedBarcodesCount": 1,
+            "Name": "task-read-barcodes",
+            "SectionArray": [
+                {
+                    "ImageParameterName": "ip-read-barcodes",
+                    "Section": "ST_REGION_PREDETECTION",
+                    "StageArray": [ { "Stage": "SST_PREDETECT_REGIONS" } ]
+                },
+                {
+                    "ImageParameterName": "ip-read-barcodes",
+                    "Section": "ST_BARCODE_LOCALIZATION",
+                    "StageArray": [
+                        { "Stage": "SST_LOCALIZE_CANDIDATE_BARCODES" },
+                        { "Stage": "SST_LOCALIZE_BARCODES" }
+                    ]
+                },
+                {
+                    "ImageParameterName": "ip-read-barcodes",
+                    "Section": "ST_BARCODE_DECODING",
+                    "StageArray": [
+                        { "Stage": "SST_COMPLEMENT_BARCODE" },
+                        { "Stage": "SST_SCALE_BARCODE_IMAGE" },
+                        { "Stage": "SST_DECODE_BARCODES" }
+                    ]
+                }
+            ]
+        }
+    ],
+    "CaptureVisionTemplates": [
+        {
+            "ImageROIProcessingNameArray": [
+                "roi-read-barcodes"
+            ],
+            "Name": "ReadBarcodes_Default"
+        }
+    ],
+    "GlobalParameter": {
+        "IntraOpNumThreads": 4
+    },
+    "ImageParameterOptions": [
+        {
+            "ApplicableStages": [
+                { "Stage": "SST_INPUT_COLOR_IMAGE" },
+                { "Stage": "SST_SCALE_IMAGE" },
+                { "Stage": "SST_CONVERT_TO_GRAYSCALE" },
+                {
+                    "GrayscaleTransformationModes": [
+                        { "Mode": "GTM_ORIGINAL" },
+                        { "Mode": "GTM_INVERTED" }
+                    ],
+                    "Stage": "SST_TRANSFORM_GRAYSCALE"
+                },
+            ],
+            "Name": "ip-read-barcodes"
+        }
+    ],
+    "TargetROIDefOptions": [
+        {
+            "Name": "roi-read-barcodes",
+            "TaskSettingNameArray": [
+                "task-read-barcodes"
+            ]
+        }
+    ],
+    "Version": "5.1"
+}

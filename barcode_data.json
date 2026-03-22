@@ -1,0 +1,62 @@
+{
+    "4740574009820": {
+        "ITEMNAME": "VSL keedusalaami 105 g",
+        "layout": "2x2",
+        "rois": {
+            "package_1": [[150, 310], [1700, 1170]],
+            "package_2": [[170, 1300], [1720, 2160]],
+            "package_3": [[1840, 290], [3390, 1150]],
+            "package_4": [[1850, 1265], [3400, 2125]]
+        },
+        "date_area": [[100, 1425], [330, 1525]],
+        "label1_below": 1155,
+        "label2_above": 550,
+        "product_area_between": [550,1155],
+        "BESTBEFOREDAYS": 90
+    },
+    "4740574081192": {
+        "ITEMNAME": "Fitlap Veisesink 105 g",
+        "layout": "2x2",
+        "rois": {
+            "package_1": [[135, 320], [1685, 1180]],
+            "package_2": [[160, 1300], [1710, 2160]],
+            "package_3": [[1830, 300], [3380, 1160]],
+            "package_4": [[1840, 1265], [3390, 2125]]
+        },
+        "date_area": [[100, 1425], [330, 1525]],
+        "label1_below": 1155,
+        "label2_above": 550,
+        "product_area_between": [550,1155],
+        "BESTBEFOREDAYS": 29
+    },
+    "4740574090002": {
+        "ITEMNAME": "Kalkunifileesink suitsutatud 105 g",
+        "layout": "2x2",
+        "rois": {
+            "package_1": [[135, 320], [1685, 1180]],
+            "package_2": [[155, 1300], [1705, 2160]],
+            "package_3": [[1825, 300], [3375, 1160]],
+            "package_4": [[1840, 1270], [3390, 2130]]
+        },
+        "date_area": [[100, 1425], [330, 1525]],
+        "label1_below": 1155,
+        "label2_above": 550,
+        "product_area_between": [550,1155],
+        "BESTBEFOREDAYS": 29
+    },
+    "4740574008052": {
+        "ITEMNAME": "Nõo Rulaad 135 g",
+        "layout": "2x2",
+        "rois": {
+            "package_1": [[140, 300], [1690, 1160]],
+            "package_2": [[160, 1285], [1710, 2145]],
+            "package_3": [[1840, 290], [3390, 1150]],
+            "package_4": [[1840, 1255], [3390, 2115]]
+        },
+        "date_area": [[100, 1425], [330, 1525]],
+        "label1_below": 1155,
+        "label2_above": 550,
+        "product_area_between": [550,1155],
+        "BESTBEFOREDAYS": 29
+    }
+}
