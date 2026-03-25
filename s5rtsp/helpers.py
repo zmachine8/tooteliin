@@ -2,8 +2,6 @@ import threading
 import cv2
 import time
 import numpy as np
-import re
-
 
 class RTSPStreamReader:
     def __init__(self, url):
@@ -18,70 +16,46 @@ class RTSPStreamReader:
     def _update(self):
         while self.running:
             ret, frame = self.cap.read()
-            if not self.running:
-                break
+            if not self.running: break
             with self.lock:
                 self.ret = ret
                 self.frame = frame
-            if not ret:
-                break
+            if not ret: break
 
     def read(self):
         with self.lock:
-            if self.frame is None:
-                return self.ret, None
+            if self.frame is None: return self.ret, None
             return self.ret, self.frame.copy()
 
     def stop(self):
         self.running = False
         self.thread.join(timeout=1.0)
         self.cap.release()
-
-
+        
 def is_green_screen(frame):
-    if frame is None:
-        return False
+    if frame is None: return False
     small = cv2.resize(frame, (64, 64))
     avg_color = np.mean(small, axis=(0, 1))
     return avg_color[1] > 200 and avg_color[0] < 50 and avg_color[2] < 50
 
-
 def measure_global_change(f1, f2):
+    # Resize to 350x250 (perfectly divisible by 7x5 grid)
+    # This resolution is high enough to detect objects but small enough to fit in cache.
     w, h = 350, 250
     g1 = cv2.cvtColor(cv2.resize(f1, (w, h)), cv2.COLOR_BGR2GRAY)
     g2 = cv2.cvtColor(cv2.resize(f2, (w, h)), cv2.COLOR_BGR2GRAY)
+    
+    # Compute difference once for the whole image
     diff_map = cv2.absdiff(g1, g2)
-    uw, uh = w // 7, h // 5
+    
+    uw, uh = w // 7, h // 5  # Unit width (50px) and height (50px)
     maes = []
+
+    # Sample 6 areas at (row, col) indices: (0,0), (0,3), (0,6), (4,0), (4,3), (4,6)
     for r in [0, 4]:
         for c in [0, 3, 6]:
-            roi_diff = diff_map[r * uh:(r + 1) * uh, c * uw:(c + 1) * uw]
+            roi_diff = diff_map[r*uh : (r+1)*uh, c*uw : (c+1)*uw]
             maes.append(np.mean(roi_diff))
+
+    # Return minimum: Only trigger if ALL regions show significant change (Global Motion)
     return min(maes)
-
-
-def get_formatted_date(date_string):
-    if not isinstance(date_string, str):
-        return None
-    date_string = re.sub(r"[^a-zA-Z0-9]", "", date_string)
-    letter_to_number_map = {
-        "O": "0",
-        "I": "1",
-        "L": "1",
-        "Z": "2",
-        "S": "5",
-        "B": "8",
-        "R": "8",
-        "A": "4",
-    }
-    date_string = "".join(letter_to_number_map.get(char, char) for char in date_string.upper())
-
-    if len(date_string) == 8 and date_string.isdigit():
-        if date_string[2] not in ["0", "1"]:
-            others_to_m1 = {"2": "1", "3": "0", "4": "1", "5": "0", "6": "0", "7": "1", "8": "0", "9": "0"}
-            date_string = date_string[:2] + others_to_m1.get(date_string[2], date_string[2]) + date_string[3:]
-
-        day, month, year = int(date_string[:2]), int(date_string[2:4]), int(date_string[4:])
-        return f"{day:02}.{month:02}.{year:04}"
-
-    return "NA"

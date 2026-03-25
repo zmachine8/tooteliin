@@ -14,3 +14,4 @@ veis/*
 !veis/date/
 !veis/date/**
 vana_skript/
+openrouter_key.env
