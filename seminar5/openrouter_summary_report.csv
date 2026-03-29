@@ -1,2 +1,0 @@
-model,rows_total,images_processed_by_ocr,correct,wrong,undetected,image_read_errors,api_failures,accuracy_all_percent,accuracy_processed_percent,avg_time_sec,total_api_calls,total_prompt_tokens,total_completion_tokens,total_tokens,total_cost,estimated_daily_images,estimated_daily_cost
-OpenRouter (google/gemini-2.0-flash-001),344,344,154,148,42,0,0,44.77,44.77,1.175707,344,381496,3146,384642,0.039408,65828.57142857143,7.541199

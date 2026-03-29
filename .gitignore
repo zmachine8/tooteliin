@@ -1,17 +1,11 @@
 # Ignore the salami directory and its contents
-reports/
 captures/
-kalkun/*
-!kalkun/date/
-!kalkun/date/**
-rulaad/*
-!rulaad/date/
-!rulaad/date/**
-salami/*
-!salami/date/
-!salami/date/**
-veis/*
-!veis/date/
-!veis/date/**
+kalkun/
+rulaad/
+salami/
+veis/
 vana_skript/
 openrouter_key.env
+reports/
+s5rtsp/
+seminar5/

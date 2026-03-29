@@ -1,4 +1,5 @@
 import os
+from unittest import result
 import cv2
 import csv
 import json
@@ -19,18 +20,25 @@ from dynamsoft_barcode_reader_bundle import *
 # =========================
 MODE = "rtsp"  # "rtsp" või "images"
 
-STREAM_URL = "rtsp://172.17.37.81:8554/rulaad"
+STREAM_URL = "rtsp://172.17.37.81:8554/salami"
 SHARED_CAPTURE_FOLDER = "captures"
 TEST_IMAGES_FOLDER = SHARED_CAPTURE_FOLDER
 TEST_IMAGE_PREFIX = "capture_"
 
 # Dynamsoft
 DYNAMSOFT_LICENSE = "t0088YQEAACNxJmkf8GttAqbAp6SwlzBDDmGyqS+wr7cKNFZA60wxkoMTAEVucd4B5oz5RrBs9qmv9rznWBwM6hEuifMcw0O0H0z/aOJuGt6bVY2tltgAycZJgQ=="
-TEMPLATE_PATH = "minimal_template.json"  # valikuline: kui puudub, kasutatakse default seadeid
-PRODUCT_DB_PATH = "barcode_data.json"
+TEMPLATE_PATH = None  # määratakse BASE_DIR põhjal allpool
+PRODUCT_DB_PATH = None
 
 # Ülesandes antud kuupäev
-CAPTURE_DATE_STR = "22.03.2026"
+CAPTURE_DATE_STR = "18.05.2026"
+
+EXPECTED_DATES = { #EXPECTED_DATES ei ole tegelikult koodis kasutusel
+    "rulaad": "15.03.2026",
+    "kalkun": "15.03.2026",
+    "veis": "15.03.2026",
+    "salami": "18.05.2026",
+}
 
 # Liikumistuvastus
 MOTION_THRESHOLD = 18.0
@@ -53,8 +61,9 @@ DATE_UPSCALE_FACTOR = 2.0
 PADDLE_BATCH_SIZE = 16
 
 BASE_DIR = Path(__file__).resolve().parent
-SEMINAR5_DIR = BASE_DIR / "seminar5"
 ROOT_HELPERS_PATH = BASE_DIR / "helpers.py"
+TEMPLATE_PATH = str(BASE_DIR / "minimal_template.json")
+PRODUCT_DB_PATH = str(BASE_DIR / "barcode_data.json")
 
 
 # =========================
@@ -128,6 +137,79 @@ def safe_crop(img: np.ndarray, x1: int, y1: int, x2: int, y2: int) -> np.ndarray
     return img[y1:y2, x1:x2].copy()
 
 
+def normalize_product_key(value: Optional[str]) -> str:
+    return (value or "").strip().lower()
+
+
+def infer_stream_product_key(stream_url: str) -> str:
+    return normalize_product_key(stream_url.rstrip("/").split("/")[-1])
+
+
+def find_default_product_entry(product_db: Dict[str, Any], stream_key: str) -> Optional[Dict[str, Any]]:
+    stream_key = normalize_product_key(stream_key)
+    if not stream_key:
+        return None
+
+    for ean, product in product_db.items():
+        name = normalize_product_key(product.get("ITEMNAME") or product.get("name"))
+        if stream_key and stream_key in name:
+            context = product.copy()
+            context["_ean"] = ean
+            return context
+    return None
+
+
+def build_center_barcode_crops(frame: np.ndarray) -> List[Tuple[str, np.ndarray]]:
+    if frame is None or frame.size == 0:
+        return []
+
+    h, w = frame.shape[:2]
+    regions = [
+        ("center_wide", (0.18, 0.16, 0.82, 0.90)),
+        ("center_tight", (0.28, 0.16, 0.72, 0.90)),
+        ("middle_band", (0.08, 0.26, 0.92, 0.74)),
+    ]
+
+    out: List[Tuple[str, np.ndarray]] = []
+    for name, (rx1, ry1, rx2, ry2) in regions:
+        crop = safe_crop(
+            frame,
+            int(w * rx1),
+            int(h * ry1),
+            int(w * rx2),
+            int(h * ry2),
+        )
+        if crop is not None and crop.size > 0 and crop.shape[0] > 20 and crop.shape[1] > 20:
+            out.append((name, crop))
+    return out
+
+
+def build_roi_barcode_crops(frame: np.ndarray, product_cfg: Optional[Dict[str, Any]]) -> List[Tuple[str, np.ndarray]]:
+    if frame is None or frame.size == 0 or not product_cfg or "rois" not in product_cfg:
+        return []
+
+    out: List[Tuple[str, np.ndarray]] = []
+    rois = product_cfg.get("rois") or {}
+    for package_name in sorted(rois.keys()):
+        ((x1, y1), (x2, y2)) = rois[package_name]
+        crop = safe_crop(frame, int(x1), int(y1), int(x2), int(y2))
+        if crop is not None and crop.size > 0 and crop.shape[0] > 20 and crop.shape[1] > 20:
+            out.append((f"roi_{package_name}", crop))
+    return out
+
+
+def resolve_expected_date(product_name: str) -> str:
+    product_name = normalize_product_key(product_name)
+    if product_name in EXPECTED_DATES:
+        return EXPECTED_DATES[product_name]
+
+    for key, value in EXPECTED_DATES.items():
+        if key in product_name:
+            return value
+
+    return CAPTURE_DATE_STR
+
+
 class RTSPStreamReader:
     def __init__(self, url: str):
         self.cap = cv2.VideoCapture(url)
@@ -162,7 +244,7 @@ class RTSPStreamReader:
 
 
 class BarcodeProductReader:
-    def __init__(self, license_key: str, template_path: str, product_db_path: str, capture_date_str: str):
+    def __init__(self, license_key: str, template_path: str, product_db_path: str, capture_date_str: str, stream_product_key: str = ""):
         LicenseManager.init_license(license_key)
         self.router = CaptureVisionRouter()
 
@@ -184,6 +266,8 @@ class BarcodeProductReader:
             self.product_db = json.load(f)
 
         self.capture_date = datetime.strptime(capture_date_str, "%d.%m.%Y")
+        self.stream_product_key = normalize_product_key(stream_product_key)
+        self.default_product = find_default_product_entry(self.product_db, self.stream_product_key)
 
     def lookup_product(self, ean: str):
         product = self.product_db.get(ean)
@@ -207,24 +291,69 @@ class BarcodeProductReader:
             "expiry_date_str": expiry_date_str,
         }
 
-    def _parse_capture_result(self, result, source_name: str, elapsed_ms: float) -> Dict[str, Any]:
+    def _parse_capture_result(self, result, source_name: str, elapsed_ms: float, frame_width: Optional[int] = None) -> Dict[str, Any]:
         items = result.get_items() if result is not None else None
         barcodes = []
+
         if items:
             for item in items:
                 if item.get_type() == EnumCapturedResultItemType.CRIT_BARCODE:
                     ean = item.get_text()
                     product_info = self.lookup_product(ean)
+                    points = _extract_points_from_item(item)
+
                     barcodes.append({
                         "ean": ean,
                         "product": product_info,
+                        "points": points,
                     })
+
+        if frame_width is not None and barcodes:
+            barcodes = sort_barcodes_center_to_right(barcodes, frame_width)
 
         return {
             "image_path": source_name,
             "elapsed_ms": elapsed_ms,
             "barcodes": barcodes,
         }
+
+    def _capture_crop(self, image_or_path, source_name: str, crop_name: str) -> Dict[str, Any]:
+        t0 = time.perf_counter()
+        result = self.router.capture(image_or_path, self.template_name)
+        elapsed_ms = (time.perf_counter() - t0) * 1000.0
+        return self._parse_capture_result(result, source_name, elapsed_ms, crop_name=crop_name)
+
+    def _choose_best_barcodes(self, candidates: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+        if not candidates:
+            return []
+
+        def score_bc(bc: Dict[str, Any]) -> Tuple[int, int]:
+            product = bc.get("product")
+            ean = bc.get("ean", "")
+            known = 1 if product else 0
+            stream_match = 0
+            if product:
+                name = normalize_product_key(product.get("name"))
+                if self.stream_product_key and self.stream_product_key in name:
+                    stream_match = 1
+            return (stream_match, known)
+
+        dedup: Dict[str, Dict[str, Any]] = {}
+        ordered: List[Dict[str, Any]] = []
+        for bc in candidates:
+            ean = bc.get("ean")
+            if not ean:
+                continue
+            if ean not in dedup:
+                dedup[ean] = bc
+                ordered.append(bc)
+                continue
+            if score_bc(bc) > score_bc(dedup[ean]):
+                dedup[ean] = bc
+
+        ordered = [dedup[bc["ean"]] for bc in ordered if bc.get("ean") in dedup]
+        ordered.sort(key=lambda bc: score_bc(bc), reverse=True)
+        return ordered
 
     def read_image(self, image_path: str) -> Dict[str, Any]:
         t0 = time.perf_counter()
@@ -236,7 +365,8 @@ class BarcodeProductReader:
         t0 = time.perf_counter()
         result = self.router.capture(frame, self.template_name)
         elapsed_ms = (time.perf_counter() - t0) * 1000.0
-        return self._parse_capture_result(result, source_name, elapsed_ms)
+        frame_width = frame.shape[1] if frame is not None else None
+        return self._parse_capture_result(result, source_name, elapsed_ms, frame_width=frame_width)
 
 
 class PaddleDateOCR:
@@ -505,7 +635,7 @@ def write_results_report(results: List[Dict[str, Any]], path: str) -> None:
 
 def write_ocr_csv_report(results: List[Dict[str, Any]], path: str) -> None:
     headers = [
-        "capture_file", "video_time_s", "slot", "barcode_found", "ean", "product_name",
+        "capture_file", "video_time_s", "slot", "barcode_found", "ean", "all_eans", "product_name", "source_crop",
         "expected_date", "date_exists", "predicted_date", "is_correct", "winning_variant",
         "winning_raw_text", "barcode_elapsed_ms", "ocr_processing_ms"
     ]
@@ -513,7 +643,11 @@ def write_ocr_csv_report(results: List[Dict[str, Any]], path: str) -> None:
         writer = csv.DictWriter(f, fieldnames=headers)
         writer.writeheader()
         for entry in results:
-            first_barcode = entry.get("barcodes", [{}])[0] if entry.get("barcodes") else {}
+            barcode_list = entry.get("barcodes", [])
+            barcode_eans = [bc.get("ean", "") for bc in barcode_list if bc.get("ean")]
+            barcode_eans_str = ",".join(barcode_eans)
+
+            first_barcode = barcode_list[0] if barcode_list else {}
             product = first_barcode.get("product") or {}
             date_results = entry.get("date_results") or []
             if not date_results:
@@ -523,7 +657,9 @@ def write_ocr_csv_report(results: List[Dict[str, Any]], path: str) -> None:
                     "slot": "-",
                     "barcode_found": bool(entry.get("barcodes")),
                     "ean": first_barcode.get("ean", ""),
+                    "all_eans": barcode_eans_str,
                     "product_name": product.get("name", ""),
+                    "source_crop": first_barcode.get("source_crop", entry.get("source_crop", "")),
                     "expected_date": "",
                     "date_exists": False,
                     "predicted_date": "NA",
@@ -542,7 +678,9 @@ def write_ocr_csv_report(results: List[Dict[str, Any]], path: str) -> None:
                     "slot": idx,
                     "barcode_found": bool(entry.get("barcodes")),
                     "ean": first_barcode.get("ean", ""),
+                    "all_eans": barcode_eans_str,
                     "product_name": product.get("name", ""),
+                    "source_crop": first_barcode.get("source_crop", entry.get("source_crop", "")),
                     "expected_date": dr.get("expected_date", ""),
                     "date_exists": dr.get("date_exists", False),
                     "predicted_date": dr.get("predicted_date", "NA"),
@@ -608,24 +746,84 @@ def save_graph(timestamps, change_scores, capture_times, report_folder: str):
     plt.savefig(out, dpi=150)
     plt.close()
 
+def _extract_points_from_item(item) -> List[Tuple[float, float]]:
+    try:
+        loc = item.get_location()
+        if loc is None:
+            return []
 
+        if hasattr(loc, "points") and loc.points:
+            pts = loc.points
+            out = []
+            for p in pts:
+                x = getattr(p, "x", None)
+                y = getattr(p, "y", None)
+                if x is not None and y is not None:
+                    out.append((float(x), float(y)))
+            if out:
+                return out
+
+        if hasattr(loc, "get_points"):
+            pts = loc.get_points()
+            out = []
+            for p in pts:
+                x = getattr(p, "x", None)
+                y = getattr(p, "y", None)
+                if x is not None and y is not None:
+                    out.append((float(x), float(y)))
+            if out:
+                return out
+    except Exception:
+        pass
+
+    return []
+
+
+def barcode_center_x(bc: Dict[str, Any]) -> float:
+    points = bc.get("points") or []
+    if not points:
+        return float("inf")
+    xs = [p[0] for p in points]
+    return sum(xs) / len(xs)
+
+
+def sort_barcodes_center_to_right(barcodes: List[Dict[str, Any]], frame_width: int) -> List[Dict[str, Any]]:
+    if not barcodes:
+        return []
+
+    frame_center_x = frame_width / 2.0
+
+    right_side = [bc for bc in barcodes if barcode_center_x(bc) >= frame_center_x]
+    left_side = [bc for bc in barcodes if barcode_center_x(bc) < frame_center_x]
+
+    right_side_sorted = sorted(right_side, key=lambda bc: barcode_center_x(bc) - frame_center_x)
+    left_side_sorted = sorted(left_side, key=lambda bc: frame_center_x - barcode_center_x(bc))
+
+    return right_side_sorted + left_side_sorted
 
 def get_context_product(reader: BarcodeProductReader, barcode_result: Dict[str, Any], current_product: Optional[Dict[str, Any]]):
     barcodes = barcode_result.get("barcodes", [])
-    if not barcodes:
+    if barcodes:
+        for bc in barcodes:
+            ean = bc.get("ean")
+            if not ean:
+                continue
+
+            product = reader.product_db.get(ean)
+            if product is None:
+                continue
+
+            context = product.copy()
+            context["_ean"] = ean
+            return context
+
+    if current_product is not None:
         return current_product
 
-    ean = barcodes[0].get("ean")
-    if not ean:
-        return current_product
+    if reader.default_product is not None:
+        return reader.default_product.copy()
 
-    product = reader.product_db.get(ean)
-    if product is None:
-        return current_product
-
-    context = product.copy()
-    context["_ean"] = ean
-    return context
+    return None
 
 
 
@@ -633,7 +831,7 @@ def print_barcode_result(barcode_result: Dict[str, Any], rel_time: float) -> Non
     if not barcode_result["barcodes"]:
         print(
             f"Aeg videos: {rel_time:.3f} s | {os.path.basename(barcode_result['image_path'])} | Triipkoodi ei leitud | "
-            f"Lugemisaeg: {barcode_result['elapsed_ms']:.1f} ms"
+            f"Lugemisaeg: {barcode_result['elapsed_ms']:.1f} ms | crop={barcode_result.get('source_crop', '-')}"
         )
         return
 
@@ -642,12 +840,12 @@ def print_barcode_result(barcode_result: Dict[str, Any], rel_time: float) -> Non
         if product:
             print(
                 f"Aeg videos: {rel_time:.3f} s | EAN13: {bc['ean']} | Toode: {product['name']} | "
-                f"Säilivusaeg: {product['expiry_date_str']} | Lugemisaeg: {barcode_result['elapsed_ms']:.1f} ms"
+                f"Säilivusaeg: {product['expiry_date_str']} | Lugemisaeg: {barcode_result['elapsed_ms']:.1f} ms | crop={bc.get('source_crop', barcode_result.get('source_crop', '-'))}"
             )
         else:
             print(
                 f"Aeg videos: {rel_time:.3f} s | EAN13: {bc['ean']} | Toode: andmebaasist puudub | "
-                f"Säilivusaeg: puudub | Lugemisaeg: {barcode_result['elapsed_ms']:.1f} ms"
+                f"Säilivusaeg: puudub | Lugemisaeg: {barcode_result['elapsed_ms']:.1f} ms | crop={bc.get('source_crop', barcode_result.get('source_crop', '-'))}"
             )
 
 
@@ -778,9 +976,7 @@ def process_captured_frame(
         return current_product
 
     product_name = current_product.get("ITEMNAME") or current_product.get("name") or "Tundmatu toode"
-    expiry_duration = current_product.get("BESTBEFOREDAYS", current_product.get("expiry_duration", 0))
-    expiry_date = reader.capture_date + timedelta(days=int(expiry_duration)) if expiry_duration is not None else reader.capture_date
-    expiry_date_str = expiry_date.strftime('%d.%m.%Y')
+    expiry_date_str = resolve_expected_date(product_name)
     ean_str = current_product.get("_ean", "Tundmatu")
 
     loop_start_t = time.perf_counter()
@@ -990,6 +1186,7 @@ def main():
         template_path=TEMPLATE_PATH,
         product_db_path=PRODUCT_DB_PATH,
         capture_date_str=CAPTURE_DATE_STR,
+        stream_product_key=infer_stream_product_key(STREAM_URL),
     )
 
     print(f"Mode: {MODE}")

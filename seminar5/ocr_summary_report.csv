@@ -1,4 +1,0 @@
-model,rows_total,images_processed_by_ocr,correct,wrong,undetected,image_read_errors,accuracy_all_percent,accuracy_processed_percent,avg_time_sec,model_init_status,model_init_detail
-EasyOCR,344,344,41,42,261,0,11.92,11.92,0.016571,ok,
-PARSeq,0,0,0,0,0,0,0.00,0.00,0.000000,init_failed,No configuration found for 'parseq'
-PaddleOCR,344,344,132,94,118,0,38.37,38.37,0.051795,ok,
