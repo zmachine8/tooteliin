@@ -1,0 +1,41 @@
+Dataset root: sildid_ja_toode
+Model: facebook/dinov2-small
+
+SILDI / ALA OLEMASOLU ANALÜÜS (DINOv2)
+===================================
+label1: kausta empty_label1 ei leitud või see on tühi, negatiivset histogrammi ei tehtud
+
+label2: kausta empty_label2 ei leitud või see on tühi, negatiivset histogrammi ei tehtud
+
+ALA: product_area
+positive_count=12 | empty_count=13
+positive_stats={'count': 12, 'min': 0.06818431615829468, 'max': 0.35463470220565796, 'mean': 0.23824231326580048, 'median': 0.26723912358283997, 'std': 0.1054973378777504}
+empty_stats={'count': 13, 'min': 0.6759963035583496, 'max': 0.8389509916305542, 'mean': 0.7381486892700195, 'median': 0.7257758378982544, 'std': 0.04519687220454216}
+threshold=0.354635
+accuracy=1.0000 precision=1.0000 recall=1.0000 tp=12 fn=0 tn=13 fp=0
+
+
+TOOTE TUVASTAMINE (nearest neighbour, DINOv2)
+===========================================
+AREA: product_area
+running_total=12 running_correct=10 running_accuracy=0.8333
+
+Confusion matrix (rows=true, cols=pred):
+            kalkun   rulaad   salami     veis
+  kalkun        1        0        0        2
+  rulaad        0        3        0        0
+  salami        0        0        3        0
+    veis        0        0        0        3
+
+Final accuracy: 0.8333
+
+KLASSIDEVAHELISED KAUGUSED
+==========================
+AREA: product_area
+kalkun vs rulaad: 0.399186
+kalkun vs salami: 0.715146
+kalkun vs veis: 0.269219
+rulaad vs salami: 0.639168
+rulaad vs veis: 0.433556
+salami vs veis: 0.694223
+
