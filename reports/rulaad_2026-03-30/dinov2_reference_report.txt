@@ -1,0 +1,40 @@
+DINOv2 reference gallery report
+=============================
+
+Reference root: /Users/reimozukker/Documents/tooteliin/sildid_ja_toode
+Model: facebook/dinov2-small
+Device: mps
+
+Area: label1
+  empty_label1: 13
+  kalkun: 3
+  rulaad: 3
+  salami: 3
+  veis: 3
+  leave_one_out_accuracy: 0.3333333333333333
+  intra_positive_median: 0.13192570209503174
+  positive_vs_empty_median: 0.5993251502513885
+  empty_threshold: 0.36562542617321014
+
+Area: label2
+  empty_label2: 13
+  kalkun: 3
+  rulaad: 3
+  salami: 3
+  veis: 3
+  leave_one_out_accuracy: 0.5833333333333334
+  intra_positive_median: 0.2334175705909729
+  positive_vs_empty_median: 0.7397646903991699
+  empty_threshold: 0.4865911304950714
+
+Area: product_area
+  empty_product_area: 13
+  kalkun: 3
+  rulaad: 3
+  salami: 3
+  veis: 3
+  leave_one_out_accuracy: 0.8333333333333334
+  intra_positive_median: 0.2672383785247803
+  positive_vs_empty_median: 0.737227588891983
+  empty_threshold: 0.5022329837083817
+

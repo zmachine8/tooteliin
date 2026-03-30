@@ -1,0 +1,439 @@
+Triipkoodi ja kuupäeva tulemused
+===========================
+
+Pilt: takt_001.png
+Aeg videos: 13.702 s
+Triipkoodi lugemise aeg: 356.5 ms
+OCR aeg (4 kuupäeva ala): 1090.7 ms
+Triipkood: ei leitud
+  S1: kuupäev puudub | tulemus=NA | oodatav=15.03.2026 | staatus=- | variant=orig | raw=450320266
+  S2: kuupäev puudub | tulemus=NA | oodatav=15.03.2026 | staatus=- | variant=orig | raw=CR0207A
+  S3: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=orig | raw=15032026
+  S4: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=orig | raw=15032026
+  L11: area=label1 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.0607 | d_empty=0.6285 | empty_like=ei
+  L12: area=label1 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1545 | d_empty=0.7207 | empty_like=ei
+  L13: area=label1 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.0919 | d_empty=0.6156 | empty_like=ei
+  L14: area=label1 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1018 | d_empty=0.5849 | empty_like=ei
+  L21: area=label2 | nn=rulaad | centroid=veis | nearest_class=rulaad | d_pos=0.2853 | d_empty=0.6623 | empty_like=ei
+  L22: area=label2 | nn=rulaad | centroid=veis | nearest_class=rulaad | d_pos=0.2446 | d_empty=0.6319 | empty_like=ei
+  L23: area=label2 | nn=veis | centroid=rulaad | nearest_class=veis | d_pos=0.8127 | d_empty=0.3593 | empty_like=jah
+  L24: area=label2 | nn=kalkun | centroid=veis | nearest_class=kalkun | d_pos=0.8160 | d_empty=0.4140 | empty_like=jah
+  P1: area=product_area | nn=veis | centroid=kalkun | nearest_class=veis | d_pos=0.7341 | d_empty=0.3726 | empty_like=jah
+  P2: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.6172 | d_empty=0.3440 | empty_like=jah
+  P3: area=product_area | nn=veis | centroid=rulaad | nearest_class=veis | d_pos=0.7118 | d_empty=0.3078 | empty_like=jah
+  P4: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.6980 | d_empty=0.3324 | empty_like=jah
+
+Pilt: takt_002.png
+Aeg videos: 21.705 s
+Triipkoodi lugemise aeg: 700.0 ms
+OCR aeg (4 kuupäeva ala): 1079.6 ms
+S3: EAN13: 4740574081192 | Toode: Fitlap Veisesink 105 g | Säilivusaeg: 13.04.2026 | crop=full_frame
+S4: EAN13: 4740574081192 | Toode: Fitlap Veisesink 105 g | Säilivusaeg: 13.04.2026 | crop=full_frame
+  S1: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=clahe | raw=15032026
+  S2: kuupäev puudub | tulemus=NA | oodatav=15.03.2026 | staatus=- | variant=orig | raw=0032020
+  S3: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=orig | raw=15.032026
+  S4: kuupäev puudub | tulemus=NA | oodatav=15.03.2026 | staatus=- | variant=orig | raw=1503202F
+  L11: area=label1 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.0605 | d_empty=0.5706 | empty_like=ei
+  L12: area=label1 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1442 | d_empty=0.7178 | empty_like=ei
+  L13: area=label1 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.0011 | d_empty=0.5845 | empty_like=ei
+  L14: area=label1 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.0014 | d_empty=0.5957 | empty_like=ei
+  L21: area=label2 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1513 | d_empty=0.6976 | empty_like=ei
+  L22: area=label2 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.0838 | d_empty=0.7205 | empty_like=ei
+  L23: area=label2 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1803 | d_empty=0.7475 | empty_like=ei
+  L24: area=label2 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.2038 | d_empty=0.7535 | empty_like=ei
+  P1: area=product_area | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.2049 | d_empty=0.7380 | empty_like=ei
+  P2: area=product_area | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.2118 | d_empty=0.7181 | empty_like=ei
+  P3: area=product_area | nn=kalkun | centroid=veis | nearest_class=kalkun | d_pos=0.7335 | d_empty=0.1788 | empty_like=jah
+  P4: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.6822 | d_empty=0.2243 | empty_like=jah
+
+Pilt: takt_003.png
+Aeg videos: 30.655 s
+Triipkoodi lugemise aeg: 1046.4 ms
+OCR aeg (4 kuupäeva ala): 1106.6 ms
+S3: EAN13: 4740574081192 | Toode: Fitlap Veisesink 105 g | Säilivusaeg: 13.04.2026 | crop=full_frame
+S4: EAN13: 4740574081192 | Toode: Fitlap Veisesink 105 g | Säilivusaeg: 13.04.2026 | crop=full_frame
+  S1: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=clahe | raw=15032026
+  S2: kuupäev olemas | tulemus=15.03.2020 | oodatav=15.03.2026 | staatus=vale | variant=orig | raw=15032020
+  S3: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=orig | raw=15032026
+  S4: kuupäev puudub | tulemus=NA | oodatav=15.03.2026 | staatus=- | variant=orig | raw=1503202
+  L11: area=label1 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.0088 | d_empty=0.5860 | empty_like=ei
+  L12: area=label1 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1468 | d_empty=0.7139 | empty_like=ei
+  L13: area=label1 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1164 | d_empty=0.6279 | empty_like=ei
+  L14: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.2088 | d_empty=0.6046 | empty_like=ei
+  L21: area=label2 | nn=rulaad | centroid=veis | nearest_class=rulaad | d_pos=0.2821 | d_empty=0.6348 | empty_like=ei
+  L22: area=label2 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.0041 | d_empty=0.6866 | empty_like=ei
+  L23: area=label2 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.0010 | d_empty=0.7588 | empty_like=ei
+  L24: area=label2 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.0005 | d_empty=0.6441 | empty_like=ei
+  P1: area=product_area | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.7881 | d_empty=0.2827 | empty_like=jah
+  P2: area=product_area | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1745 | d_empty=0.7274 | empty_like=ei
+  P3: area=product_area | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1210 | d_empty=0.8089 | empty_like=ei
+  P4: area=product_area | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1424 | d_empty=0.7550 | empty_like=ei
+
+Pilt: takt_004.png
+Aeg videos: 37.625 s
+Triipkoodi lugemise aeg: 1048.8 ms
+OCR aeg (4 kuupäeva ala): 1066.7 ms
+S4: EAN13: 4740574081192 | Toode: Fitlap Veisesink 105 g | Säilivusaeg: 13.04.2026 | crop=full_frame
+  S1: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=sharp | raw=15032026
+  S2: kuupäev puudub | tulemus=NA | oodatav=15.03.2026 | staatus=- | variant=orig | raw=Q.032020
+  S3: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=clahe | raw=150320Z6
+  S4: kuupäev olemas | tulemus=15.00.2026 | oodatav=15.03.2026 | staatus=vale | variant=orig | raw=15002026
+  L11: area=label1 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.0842 | d_empty=0.6160 | empty_like=ei
+  L12: area=label1 | nn=kalkun | centroid=kalkun | nearest_class=kalkun | d_pos=0.1173 | d_empty=0.6887 | empty_like=ei
+  L13: area=label1 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.0901 | d_empty=0.5896 | empty_like=ei
+  L14: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=veis | d_pos=0.0851 | d_empty=0.6277 | empty_like=ei
+  L21: area=label2 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1579 | d_empty=0.7026 | empty_like=ei
+  L22: area=label2 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1329 | d_empty=0.7346 | empty_like=ei
+  L23: area=label2 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1213 | d_empty=0.7662 | empty_like=ei
+  L24: area=label2 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.0993 | d_empty=0.6551 | empty_like=ei
+  P1: area=product_area | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1416 | d_empty=0.7171 | empty_like=ei
+  P2: area=product_area | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1336 | d_empty=0.7292 | empty_like=ei
+  P3: area=product_area | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1366 | d_empty=0.7337 | empty_like=ei
+  P4: area=product_area | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.0961 | d_empty=0.7404 | empty_like=ei
+
+Pilt: takt_005.png
+Aeg videos: 44.685 s
+Triipkoodi lugemise aeg: 740.4 ms
+OCR aeg (4 kuupäeva ala): 1065.1 ms
+S4: EAN13: 4740574081192 | Toode: Fitlap Veisesink 105 g | Säilivusaeg: 13.04.2026 | crop=full_frame
+  S1: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=clahe | raw=15032026
+  S2: kuupäev puudub | tulemus=NA | oodatav=15.03.2026 | staatus=- | variant=orig | raw=N01026
+  S3: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=orig | raw=15.03 2026
+  S4: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=clahe | raw=150320Z6
+  L11: area=label1 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.0716 | d_empty=0.5819 | empty_like=ei
+  L12: area=label1 | nn=salami | centroid=salami | nearest_class=veis | d_pos=0.1971 | d_empty=0.7208 | empty_like=ei
+  L13: area=label1 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.0863 | d_empty=0.5841 | empty_like=ei
+  L14: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1818 | d_empty=0.5728 | empty_like=ei
+  L21: area=label2 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.2142 | d_empty=0.6730 | empty_like=ei
+  L22: area=label2 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1348 | d_empty=0.6626 | empty_like=ei
+  L23: area=label2 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1151 | d_empty=0.7747 | empty_like=ei
+  L24: area=label2 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1107 | d_empty=0.6960 | empty_like=ei
+  P1: area=product_area | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1250 | d_empty=0.7698 | empty_like=ei
+  P2: area=product_area | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1733 | d_empty=0.7124 | empty_like=ei
+  P3: area=product_area | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1153 | d_empty=0.7677 | empty_like=ei
+  P4: area=product_area | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1693 | d_empty=0.7918 | empty_like=ei
+
+Pilt: takt_006.png
+Aeg videos: 54.605 s
+Triipkoodi lugemise aeg: 1051.4 ms
+OCR aeg (4 kuupäeva ala): 1037.6 ms
+S3: EAN13: 4740574081192 | Toode: Fitlap Veisesink 105 g | Säilivusaeg: 13.04.2026 | crop=full_frame
+S4: EAN13: 4740574081192 | Toode: Fitlap Veisesink 105 g | Säilivusaeg: 13.04.2026 | crop=full_frame
+  S1: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=orig | raw=15032026
+  S2: kuupäev puudub | tulemus=NA | oodatav=15.03.2026 | staatus=- | variant=orig | raw=250320201
+  S3: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=clahe | raw=15.03 2026
+  S4: kuupäev olemas | tulemus=15.03.2028 | oodatav=15.03.2026 | staatus=vale | variant=clahe | raw=15032028
+  L11: area=label1 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.0531 | d_empty=0.6080 | empty_like=ei
+  L12: area=label1 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1658 | d_empty=0.6737 | empty_like=ei
+  L13: area=label1 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.0862 | d_empty=0.5294 | empty_like=ei
+  L14: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.2023 | d_empty=0.6416 | empty_like=ei
+  L21: area=label2 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1528 | d_empty=0.6647 | empty_like=ei
+  L22: area=label2 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1354 | d_empty=0.6936 | empty_like=ei
+  L23: area=label2 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.0721 | d_empty=0.7954 | empty_like=ei
+  L24: area=label2 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1027 | d_empty=0.6477 | empty_like=ei
+  P1: area=product_area | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1501 | d_empty=0.6808 | empty_like=ei
+  P2: area=product_area | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1416 | d_empty=0.7238 | empty_like=ei
+  P3: area=product_area | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1589 | d_empty=0.7373 | empty_like=ei
+  P4: area=product_area | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1525 | d_empty=0.7094 | empty_like=ei
+
+Pilt: takt_007.png
+Aeg videos: 66.599 s
+Triipkoodi lugemise aeg: 1048.3 ms
+OCR aeg (4 kuupäeva ala): 1079.4 ms
+S3: EAN13: 4740574081192 | Toode: Fitlap Veisesink 105 g | Säilivusaeg: 13.04.2026 | crop=full_frame
+S4: EAN13: 4740574081192 | Toode: Fitlap Veisesink 105 g | Säilivusaeg: 13.04.2026 | crop=full_frame
+  S1: kuupäev olemas | tulemus=45.03.2826 | oodatav=15.03.2026 | staatus=vale | variant=adaptive | raw=45032826
+  S2: kuupäev olemas | tulemus=15.08.2020 | oodatav=15.03.2026 | staatus=vale | variant=orig | raw=15082020
+  S3: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=orig | raw=15.032026
+  S4: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=orig | raw=15032026
+  L11: area=label1 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.0581 | d_empty=0.6677 | empty_like=ei
+  L12: area=label1 | nn=kalkun | centroid=kalkun | nearest_class=kalkun | d_pos=0.1921 | d_empty=0.6035 | empty_like=ei
+  L13: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.0794 | d_empty=0.5535 | empty_like=ei
+  L14: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=veis | d_pos=0.1113 | d_empty=0.6214 | empty_like=ei
+  L21: area=label2 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.2199 | d_empty=0.6943 | empty_like=ei
+  L22: area=label2 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.2129 | d_empty=0.6972 | empty_like=ei
+  L23: area=label2 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.0894 | d_empty=0.7051 | empty_like=ei
+  L24: area=label2 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1446 | d_empty=0.6667 | empty_like=ei
+  P1: area=product_area | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1544 | d_empty=0.7181 | empty_like=ei
+  P2: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.3744 | d_empty=0.5639 | empty_like=ei
+  P3: area=product_area | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1217 | d_empty=0.7998 | empty_like=ei
+  P4: area=product_area | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1480 | d_empty=0.7601 | empty_like=ei
+
+Pilt: takt_008.png
+Aeg videos: 73.634 s
+Triipkoodi lugemise aeg: 960.7 ms
+OCR aeg (4 kuupäeva ala): 1082.6 ms
+S3: EAN13: 4740574081192 | Toode: Fitlap Veisesink 105 g | Säilivusaeg: 13.04.2026 | crop=full_frame
+S4: EAN13: 4740574081192 | Toode: Fitlap Veisesink 105 g | Säilivusaeg: 13.04.2026 | crop=full_frame
+  S1: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=orig | raw=15032026
+  S2: kuupäev puudub | tulemus=NA | oodatav=15.03.2026 | staatus=- | variant=orig | raw=CM
+  S3: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=clahe | raw=15032026
+  S4: kuupäev olemas | tulemus=15.03.2020 | oodatav=15.03.2026 | staatus=vale | variant=sharp | raw=15032020
+  L11: area=label1 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.0642 | d_empty=0.6455 | empty_like=ei
+  L12: area=label1 | nn=kalkun | centroid=kalkun | nearest_class=kalkun | d_pos=0.1266 | d_empty=0.6580 | empty_like=ei
+  L13: area=label1 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.0690 | d_empty=0.6154 | empty_like=ei
+  L14: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=veis | d_pos=0.1524 | d_empty=0.6280 | empty_like=ei
+  L21: area=label2 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.2237 | d_empty=0.6825 | empty_like=ei
+  L22: area=label2 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1055 | d_empty=0.7083 | empty_like=ei
+  L23: area=label2 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1276 | d_empty=0.7714 | empty_like=ei
+  L24: area=label2 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1285 | d_empty=0.6971 | empty_like=ei
+  P1: area=product_area | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1240 | d_empty=0.7511 | empty_like=ei
+  P2: area=product_area | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1797 | d_empty=0.7264 | empty_like=ei
+  P3: area=product_area | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1237 | d_empty=0.7621 | empty_like=ei
+  P4: area=product_area | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1436 | d_empty=0.7256 | empty_like=ei
+
+Pilt: takt_009.png
+Aeg videos: 96.619 s
+Triipkoodi lugemise aeg: 1050.8 ms
+OCR aeg (4 kuupäeva ala): 1038.3 ms
+S3: EAN13: 4740574081192 | Toode: Fitlap Veisesink 105 g | Säilivusaeg: 13.04.2026 | crop=full_frame
+  S1: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=orig | raw=15032026
+  S2: kuupäev puudub | tulemus=NA | oodatav=15.03.2026 | staatus=- | variant=orig | raw=100320
+  S3: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=orig | raw=15032026
+  S4: kuupäev puudub | tulemus=NA | oodatav=15.03.2026 | staatus=- | variant=orig | raw=1580202E
+  L11: area=label1 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.0794 | d_empty=0.6031 | empty_like=ei
+  L12: area=label1 | nn=salami | centroid=salami | nearest_class=veis | d_pos=0.1449 | d_empty=0.6934 | empty_like=ei
+  L13: area=label1 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.0718 | d_empty=0.5799 | empty_like=ei
+  L14: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=veis | d_pos=0.0970 | d_empty=0.5976 | empty_like=ei
+  L21: area=label2 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1813 | d_empty=0.6545 | empty_like=ei
+  L22: area=label2 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1417 | d_empty=0.6499 | empty_like=ei
+  L23: area=label2 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.0589 | d_empty=0.7539 | empty_like=ei
+  L24: area=label2 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1709 | d_empty=0.6816 | empty_like=ei
+  P1: area=product_area | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.2012 | d_empty=0.7322 | empty_like=ei
+  P2: area=product_area | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1409 | d_empty=0.7184 | empty_like=ei
+  P3: area=product_area | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1703 | d_empty=0.7491 | empty_like=ei
+  P4: area=product_area | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1689 | d_empty=0.7241 | empty_like=ei
+
+Pilt: takt_010.png
+Aeg videos: 118.563 s
+Triipkoodi lugemise aeg: 803.2 ms
+OCR aeg (4 kuupäeva ala): 1032.8 ms
+S3: EAN13: 4740574081192 | Toode: Fitlap Veisesink 105 g | Säilivusaeg: 13.04.2026 | crop=full_frame
+  S1: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=orig | raw=15032026
+  S2: kuupäev puudub | tulemus=NA | oodatav=15.03.2026 | staatus=- | variant=orig | raw=G03202e
+  S3: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=clahe | raw=15032026
+  S4: kuupäev puudub | tulemus=NA | oodatav=15.03.2026 | staatus=- | variant=orig | raw=1503202
+  L11: area=label1 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.0565 | d_empty=0.6323 | empty_like=ei
+  L12: area=label1 | nn=salami | centroid=salami | nearest_class=kalkun | d_pos=0.1535 | d_empty=0.7072 | empty_like=ei
+  L13: area=label1 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1030 | d_empty=0.5482 | empty_like=ei
+  L14: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=veis | d_pos=0.1254 | d_empty=0.5958 | empty_like=ei
+  L21: area=label2 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1852 | d_empty=0.7028 | empty_like=ei
+  L22: area=label2 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1448 | d_empty=0.7032 | empty_like=ei
+  L23: area=label2 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1185 | d_empty=0.7577 | empty_like=ei
+  L24: area=label2 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1073 | d_empty=0.7097 | empty_like=ei
+  P1: area=product_area | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1202 | d_empty=0.7301 | empty_like=ei
+  P2: area=product_area | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1706 | d_empty=0.7292 | empty_like=ei
+  P3: area=product_area | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1102 | d_empty=0.7801 | empty_like=ei
+  P4: area=product_area | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1518 | d_empty=0.7453 | empty_like=ei
+
+Pilt: takt_011.png
+Aeg videos: 133.692 s
+Triipkoodi lugemise aeg: 824.5 ms
+OCR aeg (4 kuupäeva ala): 1039.8 ms
+S3: EAN13: 4740574081192 | Toode: Fitlap Veisesink 105 g | Säilivusaeg: 13.04.2026 | crop=full_frame
+S4: EAN13: 4740574081192 | Toode: Fitlap Veisesink 105 g | Säilivusaeg: 13.04.2026 | crop=full_frame
+  S1: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=orig | raw=15032026
+  S2: kuupäev puudub | tulemus=NA | oodatav=15.03.2026 | staatus=- | variant=orig | raw=a0e
+  S3: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=orig | raw=15.032026
+  S4: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=orig | raw=15032026
+  L11: area=label1 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.0758 | d_empty=0.5992 | empty_like=ei
+  L12: area=label1 | nn=salami | centroid=salami | nearest_class=veis | d_pos=0.1287 | d_empty=0.7043 | empty_like=ei
+  L13: area=label1 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.0406 | d_empty=0.5890 | empty_like=ei
+  L14: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=veis | d_pos=0.0927 | d_empty=0.5961 | empty_like=ei
+  L21: area=label2 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1727 | d_empty=0.7341 | empty_like=ei
+  L22: area=label2 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.2027 | d_empty=0.6653 | empty_like=ei
+  L23: area=label2 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1668 | d_empty=0.6853 | empty_like=ei
+  L24: area=label2 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.0772 | d_empty=0.6987 | empty_like=ei
+  P1: area=product_area | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1805 | d_empty=0.6586 | empty_like=ei
+  P2: area=product_area | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1869 | d_empty=0.6694 | empty_like=ei
+  P3: area=product_area | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.7243 | d_empty=0.3108 | empty_like=jah
+  P4: area=product_area | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1617 | d_empty=0.7877 | empty_like=ei
+
+Pilt: takt_012.png
+Aeg videos: 146.659 s
+Triipkoodi lugemise aeg: 744.5 ms
+OCR aeg (4 kuupäeva ala): 1048.8 ms
+S3: EAN13: 4740574081192 | Toode: Fitlap Veisesink 105 g | Säilivusaeg: 13.04.2026 | crop=full_frame
+S4: EAN13: 4740574081192 | Toode: Fitlap Veisesink 105 g | Säilivusaeg: 13.04.2026 | crop=full_frame
+  S1: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=clahe | raw=15032026
+  S2: kuupäev puudub | tulemus=NA | oodatav=15.03.2026 | staatus=- | variant=orig | raw=
+  S3: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=clahe | raw=15032026
+  S4: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=clahe | raw=15.03.20Z6
+  L11: area=label1 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.0747 | d_empty=0.6209 | empty_like=ei
+  L12: area=label1 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1073 | d_empty=0.6586 | empty_like=ei
+  L13: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=veis | d_pos=0.0639 | d_empty=0.5749 | empty_like=ei
+  L14: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=veis | d_pos=0.1016 | d_empty=0.6452 | empty_like=ei
+  L21: area=label2 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.2914 | d_empty=0.6151 | empty_like=ei
+  L22: area=label2 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1238 | d_empty=0.7151 | empty_like=ei
+  L23: area=label2 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.0835 | d_empty=0.7831 | empty_like=ei
+  L24: area=label2 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1084 | d_empty=0.6635 | empty_like=ei
+  P1: area=product_area | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.7625 | d_empty=0.3188 | empty_like=jah
+  P2: area=product_area | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1765 | d_empty=0.7456 | empty_like=ei
+  P3: area=product_area | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1450 | d_empty=0.8099 | empty_like=ei
+  P4: area=product_area | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.2071 | d_empty=0.6985 | empty_like=ei
+
+Pilt: takt_013.png
+Aeg videos: 153.812 s
+Triipkoodi lugemise aeg: 920.4 ms
+OCR aeg (4 kuupäeva ala): 1070.3 ms
+Triipkood: ei leitud
+  S1: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=clahe | raw=15032026
+  S2: kuupäev puudub | tulemus=NA | oodatav=15.03.2026 | staatus=- | variant=orig | raw=10202
+  S3: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=clahe | raw=15032026
+  S4: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=orig | raw=15032026
+  L11: area=label1 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.0746 | d_empty=0.6227 | empty_like=ei
+  L12: area=label1 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1138 | d_empty=0.6778 | empty_like=ei
+  L13: area=label1 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.0813 | d_empty=0.6081 | empty_like=ei
+  L14: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=veis | d_pos=0.1025 | d_empty=0.6234 | empty_like=ei
+  L21: area=label2 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1611 | d_empty=0.8175 | empty_like=ei
+  L22: area=label2 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1321 | d_empty=0.6911 | empty_like=ei
+  L23: area=label2 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.0408 | d_empty=0.7701 | empty_like=ei
+  L24: area=label2 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1298 | d_empty=0.6741 | empty_like=ei
+  P1: area=product_area | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1296 | d_empty=0.7344 | empty_like=ei
+  P2: area=product_area | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1921 | d_empty=0.7016 | empty_like=ei
+  P3: area=product_area | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1547 | d_empty=0.7674 | empty_like=ei
+  P4: area=product_area | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1370 | d_empty=0.7167 | empty_like=ei
+
+Pilt: takt_014.png
+Aeg videos: 160.556 s
+Triipkoodi lugemise aeg: 1045.4 ms
+OCR aeg (4 kuupäeva ala): 1070.8 ms
+S4: EAN13: 4740574081192 | Toode: Fitlap Veisesink 105 g | Säilivusaeg: 13.04.2026 | crop=full_frame
+  S1: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=clahe | raw=15032026
+  S2: kuupäev olemas | tulemus=50.03.2026 | oodatav=15.03.2026 | staatus=vale | variant=orig | raw=S0032026
+  S3: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=orig | raw=15032026
+  S4: kuupäev olemas | tulemus=18.01.2026 | oodatav=15.03.2026 | staatus=vale | variant=sharp | raw=18012026
+  L11: area=label1 | nn=kalkun | centroid=kalkun | nearest_class=kalkun | d_pos=0.0685 | d_empty=0.5902 | empty_like=ei
+  L12: area=label1 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1387 | d_empty=0.6510 | empty_like=ei
+  L13: area=label1 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.0543 | d_empty=0.6059 | empty_like=ei
+  L14: area=label1 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.0818 | d_empty=0.6032 | empty_like=ei
+  L21: area=label2 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.2352 | d_empty=0.6902 | empty_like=ei
+  L22: area=label2 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1197 | d_empty=0.7389 | empty_like=ei
+  L23: area=label2 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.0673 | d_empty=0.7870 | empty_like=ei
+  L24: area=label2 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1326 | d_empty=0.6741 | empty_like=ei
+  P1: area=product_area | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1339 | d_empty=0.7780 | empty_like=ei
+  P2: area=product_area | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1545 | d_empty=0.7663 | empty_like=ei
+  P3: area=product_area | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1166 | d_empty=0.7310 | empty_like=ei
+  P4: area=product_area | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1497 | d_empty=0.7692 | empty_like=ei
+
+Pilt: takt_015.png
+Aeg videos: 168.267 s
+Triipkoodi lugemise aeg: 1054.0 ms
+OCR aeg (4 kuupäeva ala): 1101.5 ms
+S4: EAN13: 4740574081192 | Toode: Fitlap Veisesink 105 g | Säilivusaeg: 13.04.2026 | crop=full_frame
+  S1: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=orig | raw=15032026
+  S2: kuupäev puudub | tulemus=NA | oodatav=15.03.2026 | staatus=- | variant=orig | raw=150120264
+  S3: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=clahe | raw=15032026
+  S4: kuupäev olemas | tulemus=15.02.0206 | oodatav=15.03.2026 | staatus=vale | variant=sharp | raw=15020206
+  L11: area=label1 | nn=kalkun | centroid=kalkun | nearest_class=veis | d_pos=0.0730 | d_empty=0.5771 | empty_like=ei
+  L12: area=label1 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1292 | d_empty=0.6612 | empty_like=ei
+  L13: area=label1 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.0520 | d_empty=0.5998 | empty_like=ei
+  L14: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=veis | d_pos=0.1270 | d_empty=0.5443 | empty_like=ei
+  L21: area=label2 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.2049 | d_empty=0.6555 | empty_like=ei
+  L22: area=label2 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1447 | d_empty=0.7198 | empty_like=ei
+  L23: area=label2 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.0722 | d_empty=0.7361 | empty_like=ei
+  L24: area=label2 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1123 | d_empty=0.6999 | empty_like=ei
+  P1: area=product_area | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1201 | d_empty=0.7039 | empty_like=ei
+  P2: area=product_area | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.2157 | d_empty=0.7714 | empty_like=ei
+  P3: area=product_area | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.0766 | d_empty=0.7979 | empty_like=ei
+  P4: area=product_area | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1470 | d_empty=0.7921 | empty_like=ei
+
+Pilt: takt_016.png
+Aeg videos: 174.909 s
+Triipkoodi lugemise aeg: 1063.7 ms
+OCR aeg (4 kuupäeva ala): 1075.8 ms
+S4: EAN13: 4740574081192 | Toode: Fitlap Veisesink 105 g | Säilivusaeg: 13.04.2026 | crop=full_frame
+  S1: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=orig | raw=15032026
+  S2: kuupäev puudub | tulemus=NA | oodatav=15.03.2026 | staatus=- | variant=orig | raw=wraRon
+  S3: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=orig | raw=15.032026
+  S4: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=orig | raw=15032026
+  L11: area=label1 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.0495 | d_empty=0.6582 | empty_like=ei
+  L12: area=label1 | nn=kalkun | centroid=kalkun | nearest_class=salami | d_pos=0.1453 | d_empty=0.6608 | empty_like=ei
+  L13: area=label1 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.0697 | d_empty=0.5996 | empty_like=ei
+  L14: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=veis | d_pos=0.1075 | d_empty=0.5814 | empty_like=ei
+  L21: area=label2 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.2342 | d_empty=0.6987 | empty_like=ei
+  L22: area=label2 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1585 | d_empty=0.7294 | empty_like=ei
+  L23: area=label2 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1027 | d_empty=0.7409 | empty_like=ei
+  L24: area=label2 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.0849 | d_empty=0.6554 | empty_like=ei
+  P1: area=product_area | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.0717 | d_empty=0.7536 | empty_like=ei
+  P2: area=product_area | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.2079 | d_empty=0.7010 | empty_like=ei
+  P3: area=product_area | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1312 | d_empty=0.7678 | empty_like=ei
+  P4: area=product_area | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1105 | d_empty=0.7788 | empty_like=ei
+
+Pilt: takt_017.png
+Aeg videos: 182.636 s
+Triipkoodi lugemise aeg: 991.3 ms
+OCR aeg (4 kuupäeva ala): 1060.5 ms
+S3: EAN13: 4740574081192 | Toode: Fitlap Veisesink 105 g | Säilivusaeg: 13.04.2026 | crop=full_frame
+S4: EAN13: 4740574081192 | Toode: Fitlap Veisesink 105 g | Säilivusaeg: 13.04.2026 | crop=full_frame
+  S1: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=clahe | raw=15032026
+  S2: kuupäev olemas | tulemus=15.03.2020 | oodatav=15.03.2026 | staatus=vale | variant=orig | raw=15032020
+  S3: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=orig | raw=15.032026
+  S4: kuupäev puudub | tulemus=NA | oodatav=15.03.2026 | staatus=- | variant=orig | raw=MROROZE
+  L11: area=label1 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.0599 | d_empty=0.6196 | empty_like=ei
+  L12: area=label1 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1269 | d_empty=0.6675 | empty_like=ei
+  L13: area=label1 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.0782 | d_empty=0.6089 | empty_like=ei
+  L14: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=veis | d_pos=0.1219 | d_empty=0.5656 | empty_like=ei
+  L21: area=label2 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1809 | d_empty=0.6372 | empty_like=ei
+  L22: area=label2 | nn=kalkun | centroid=veis | nearest_class=kalkun | d_pos=0.2062 | d_empty=0.6632 | empty_like=ei
+  L23: area=label2 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.0990 | d_empty=0.7556 | empty_like=ei
+  L24: area=label2 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.0785 | d_empty=0.6374 | empty_like=ei
+  P1: area=product_area | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.0988 | d_empty=0.7240 | empty_like=ei
+  P2: area=product_area | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1777 | d_empty=0.7984 | empty_like=ei
+  P3: area=product_area | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1290 | d_empty=0.7515 | empty_like=ei
+  P4: area=product_area | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1439 | d_empty=0.7625 | empty_like=ei
+
+Pilt: takt_018.png
+Aeg videos: 189.627 s
+Triipkoodi lugemise aeg: 780.2 ms
+OCR aeg (4 kuupäeva ala): 1061.8 ms
+Triipkood: ei leitud
+  S1: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=orig | raw=15032026
+  S2: kuupäev puudub | tulemus=NA | oodatav=15.03.2026 | staatus=- | variant=orig | raw=N032026
+  S3: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=orig | raw=15032026
+  S4: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=orig | raw=15032026
+  L11: area=label1 | nn=kalkun | centroid=kalkun | nearest_class=kalkun | d_pos=0.0623 | d_empty=0.6313 | empty_like=ei
+  L12: area=label1 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1585 | d_empty=0.6601 | empty_like=ei
+  L13: area=label1 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.0680 | d_empty=0.6212 | empty_like=ei
+  L14: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=veis | d_pos=0.1192 | d_empty=0.5807 | empty_like=ei
+  L21: area=label2 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1995 | d_empty=0.6603 | empty_like=ei
+  L22: area=label2 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1421 | d_empty=0.6906 | empty_like=ei
+  L23: area=label2 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.0969 | d_empty=0.7373 | empty_like=ei
+  L24: area=label2 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.0731 | d_empty=0.6597 | empty_like=ei
+  P1: area=product_area | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1277 | d_empty=0.7213 | empty_like=ei
+  P2: area=product_area | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1714 | d_empty=0.7271 | empty_like=ei
+  P3: area=product_area | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.2211 | d_empty=0.7294 | empty_like=ei
+  P4: area=product_area | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1365 | d_empty=0.7128 | empty_like=ei
+
+Statistika
+==========
+Takte kokku: 18
+Tuvastatud taktide arv: 15
+Triipkoodi tuvastusmäär: 83.33%
+Keskmine triipkoode pildi kohta: 1.278
+Pakke kokku OCR-is: 72
+Kuupäev olemas: 52
+Kuupäev puudub: 20
+Kuupäeva saagis: 72.22%
+Õige kuupäev: 42
+Vale kuupäev: 10
+Kuupäeva täpsus: 80.77%
+DINOv2 label1 slots kokku: 72
+DINOv2 label1 empty_like: 0
+DINOv2 label1 non-empty: 72
+DINOv2 label1 õige toode: 37
+DINOv2 label1 toote täpsus: 51.39%
+DINOv2 label2 slots kokku: 72
+DINOv2 label2 empty_like: 2
+DINOv2 label2 non-empty: 70
+DINOv2 label2 õige toode: 66
+DINOv2 label2 toote täpsus: 94.29%
+DINOv2 product_area slots kokku: 72
+DINOv2 product_area empty_like: 9
+DINOv2 product_area non-empty: 63
+DINOv2 product_area õige toode: 62
+DINOv2 product_area toote täpsus: 98.41%
+Triipkoodi keskmine lugemisaeg: 901.68 ms
+Triipkoodi maksimaalne lugemisaeg: 1063.73 ms
+OCR keskmine aeg takti kohta: 1067.15 ms
+OCR maksimaalne aeg takti kohta: 1106.64 ms

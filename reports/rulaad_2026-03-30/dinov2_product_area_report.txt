@@ -1,0 +1,30 @@
+DINOv2 kokkuvõte: product_area
+===========================
+
+Model: facebook/dinov2-small
+Device: mps
+Reference root: /Users/reimozukker/Documents/tooteliin/sildid_ja_toode
+
+Reference klassid
+----------------
+empty_product_area: 13
+kalkun: 3
+rulaad: 3
+salami: 3
+veis: 3
+
+Kalibratsioon
+-----------
+leave_one_out_accuracy: 0.8333333333333334
+intra_positive_median: 0.2672383785247803
+positive_vs_empty_median: 0.737227588891983
+empty_threshold: 0.5022329837083817
+
+Query statistika
+--------------
+slots kokku: 84
+empty_like: 6
+non-empty: 78
+õige toode: 76
+toote täpsus: 97.44%
+histogramm: dinov2_hist_product_area.png

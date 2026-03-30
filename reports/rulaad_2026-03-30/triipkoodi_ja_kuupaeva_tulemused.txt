@@ -1,0 +1,502 @@
+Triipkoodi ja kuupäeva tulemused
+===========================
+
+Pilt: takt_001.png
+Aeg videos: 17.625 s
+Triipkoodi lugemise aeg: 1007.5 ms
+OCR aeg (4 kuupäeva ala): 1114.4 ms
+S3: EAN13: 4740574008052 | Toode: Nõo Rulaad 135 g | Säilivusaeg: 13.04.2026 | crop=full_frame
+S4: EAN13: 4740574008052 | Toode: Nõo Rulaad 135 g | Säilivusaeg: 13.04.2026 | crop=full_frame
+  S1: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=orig | raw=15 032026
+  S2: kuupäev puudub | tulemus=NA | oodatav=15.03.2026 | staatus=- | variant=orig | raw=027
+  S3: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=orig | raw=15032026
+  S4: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=orig | raw=15.032026
+  L11: area=label1 | nn=salami | centroid=salami | nearest_class=rulaad | d_pos=0.1271 | d_empty=0.5898 | empty_like=ei
+  L12: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1130 | d_empty=0.5439 | empty_like=ei
+  L13: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.0329 | d_empty=0.5897 | empty_like=ei
+  L14: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.0301 | d_empty=0.6176 | empty_like=ei
+  L21: area=label2 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1250 | d_empty=0.6620 | empty_like=ei
+  L22: area=label2 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1458 | d_empty=0.6428 | empty_like=ei
+  L23: area=label2 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.0278 | d_empty=0.7446 | empty_like=ei
+  L24: area=label2 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.0192 | d_empty=0.7416 | empty_like=ei
+  P1: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.2410 | d_empty=0.6255 | empty_like=ei
+  P2: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.3017 | d_empty=0.6394 | empty_like=ei
+  P3: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1810 | d_empty=0.7730 | empty_like=ei
+  P4: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1842 | d_empty=0.6621 | empty_like=ei
+
+Pilt: takt_002.png
+Aeg videos: 24.853 s
+Triipkoodi lugemise aeg: 1072.9 ms
+OCR aeg (4 kuupäeva ala): 1070.1 ms
+Triipkood: ei leitud
+  S1: kuupäev olemas | tulemus=15.09.2026 | oodatav=15.03.2026 | staatus=vale | variant=clahe | raw=15092026
+  S2: kuupäev olemas | tulemus=11.00.0200 | oodatav=15.03.2026 | staatus=vale | variant=sharp | raw=11500200
+  S3: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=clahe | raw=15032026
+  S4: kuupäev olemas | tulemus=15.03.2020 | oodatav=15.03.2026 | staatus=vale | variant=orig | raw=15032020
+  L11: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.0000 | d_empty=0.5482 | empty_like=ei
+  L12: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1432 | d_empty=0.5411 | empty_like=ei
+  L13: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.2242 | d_empty=0.5878 | empty_like=ei
+  L14: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.0752 | d_empty=0.6019 | empty_like=ei
+  L21: area=label2 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.0000 | d_empty=0.7006 | empty_like=ei
+  L22: area=label2 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1495 | d_empty=0.6822 | empty_like=ei
+  L23: area=label2 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.0943 | d_empty=0.7308 | empty_like=ei
+  L24: area=label2 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.0536 | d_empty=0.7438 | empty_like=ei
+  P1: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.2057 | d_empty=0.6768 | empty_like=ei
+  P2: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.2907 | d_empty=0.6909 | empty_like=ei
+  P3: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.2520 | d_empty=0.7725 | empty_like=ei
+  P4: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.2412 | d_empty=0.6893 | empty_like=ei
+
+Pilt: takt_003.png
+Aeg videos: 31.720 s
+Triipkoodi lugemise aeg: 1051.9 ms
+OCR aeg (4 kuupäeva ala): 1095.2 ms
+Triipkood: ei leitud
+  S1: kuupäev olemas | tulemus=16.03.2026 | oodatav=15.03.2026 | staatus=vale | variant=clahe | raw=16032026
+  S2: kuupäev puudub | tulemus=NA | oodatav=15.03.2026 | staatus=- | variant=orig | raw=115032020
+  S3: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=orig | raw=15.032026
+  S4: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=clahe | raw=15032026
+  L11: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1435 | d_empty=0.5705 | empty_like=ei
+  L12: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1938 | d_empty=0.6093 | empty_like=ei
+  L13: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.0931 | d_empty=0.5665 | empty_like=ei
+  L14: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.0755 | d_empty=0.6090 | empty_like=ei
+  L21: area=label2 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1403 | d_empty=0.7118 | empty_like=ei
+  L22: area=label2 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1355 | d_empty=0.6435 | empty_like=ei
+  L23: area=label2 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1205 | d_empty=0.7842 | empty_like=ei
+  L24: area=label2 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.0683 | d_empty=0.7588 | empty_like=ei
+  P1: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.2353 | d_empty=0.7362 | empty_like=ei
+  P2: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1823 | d_empty=0.6500 | empty_like=ei
+  P3: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1874 | d_empty=0.7177 | empty_like=ei
+  P4: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.2753 | d_empty=0.7858 | empty_like=ei
+
+Pilt: takt_004.png
+Aeg videos: 39.652 s
+Triipkoodi lugemise aeg: 825.1 ms
+OCR aeg (4 kuupäeva ala): 1057.7 ms
+S4: EAN13: 4740574008052 | Toode: Nõo Rulaad 135 g | Säilivusaeg: 13.04.2026 | crop=full_frame
+  S1: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=clahe | raw=15032026
+  S2: kuupäev puudub | tulemus=NA | oodatav=15.03.2026 | staatus=- | variant=orig | raw=002om
+  S3: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=orig | raw=15032026
+  S4: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=clahe | raw=15032026
+  L11: area=label1 | nn=salami | centroid=salami | nearest_class=veis | d_pos=0.1212 | d_empty=0.6064 | empty_like=ei
+  L12: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1158 | d_empty=0.5386 | empty_like=ei
+  L13: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=veis | d_pos=0.1052 | d_empty=0.5949 | empty_like=ei
+  L14: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.0807 | d_empty=0.6001 | empty_like=ei
+  L21: area=label2 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1548 | d_empty=0.6767 | empty_like=ei
+  L22: area=label2 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1410 | d_empty=0.6391 | empty_like=ei
+  L23: area=label2 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1406 | d_empty=0.7261 | empty_like=ei
+  L24: area=label2 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.0799 | d_empty=0.7037 | empty_like=ei
+  P1: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.2990 | d_empty=0.7489 | empty_like=ei
+  P2: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.0000 | d_empty=0.6990 | empty_like=ei
+  P3: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.0000 | d_empty=0.6760 | empty_like=ei
+  P4: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=-0.0000 | d_empty=0.6832 | empty_like=ei
+
+Pilt: takt_005.png
+Aeg videos: 46.781 s
+Triipkoodi lugemise aeg: 650.1 ms
+OCR aeg (4 kuupäeva ala): 1155.3 ms
+Triipkood: ei leitud
+  S1: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=clahe | raw=15832026
+  S2: kuupäev puudub | tulemus=NA | oodatav=15.03.2026 | staatus=- | variant=orig | raw=16m20m
+  S3: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=orig | raw=15 032026
+  S4: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=sharp | raw=15032026
+  L11: area=label1 | nn=kalkun | centroid=kalkun | nearest_class=veis | d_pos=0.1445 | d_empty=0.6064 | empty_like=ei
+  L12: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1115 | d_empty=0.5834 | empty_like=ei
+  L13: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.0912 | d_empty=0.6181 | empty_like=ei
+  L14: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.0895 | d_empty=0.5525 | empty_like=ei
+  L21: area=label2 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1601 | d_empty=0.6689 | empty_like=ei
+  L22: area=label2 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1609 | d_empty=0.6521 | empty_like=ei
+  L23: area=label2 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1039 | d_empty=0.7475 | empty_like=ei
+  L24: area=label2 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1167 | d_empty=0.6998 | empty_like=ei
+  P1: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.2201 | d_empty=0.7269 | empty_like=ei
+  P2: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1810 | d_empty=0.6947 | empty_like=ei
+  P3: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.2273 | d_empty=0.7710 | empty_like=ei
+  P4: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.2425 | d_empty=0.6556 | empty_like=ei
+
+Pilt: takt_006.png
+Aeg videos: 53.253 s
+Triipkoodi lugemise aeg: 1049.2 ms
+OCR aeg (4 kuupäeva ala): 1092.1 ms
+S4: EAN13: 4740574008052 | Toode: Nõo Rulaad 135 g | Säilivusaeg: 13.04.2026 | crop=full_frame
+  S1: kuupäev olemas | tulemus=14.08.2026 | oodatav=15.03.2026 | staatus=vale | variant=sharp | raw=1A082026
+  S2: kuupäev puudub | tulemus=NA | oodatav=15.03.2026 | staatus=- | variant=orig | raw=
+  S3: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=orig | raw=15.032026
+  S4: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=orig | raw=15032026
+  L11: area=label1 | nn=salami | centroid=salami | nearest_class=rulaad | d_pos=0.1513 | d_empty=0.5892 | empty_like=ei
+  L12: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1111 | d_empty=0.5195 | empty_like=ei
+  L13: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1366 | d_empty=0.5564 | empty_like=ei
+  L14: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.0775 | d_empty=0.5325 | empty_like=ei
+  L21: area=label2 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1514 | d_empty=0.6908 | empty_like=ei
+  L22: area=label2 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1562 | d_empty=0.6243 | empty_like=ei
+  L23: area=label2 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1107 | d_empty=0.7123 | empty_like=ei
+  L24: area=label2 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.0664 | d_empty=0.7245 | empty_like=ei
+  P1: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.2017 | d_empty=0.7472 | empty_like=ei
+  P2: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1527 | d_empty=0.6949 | empty_like=ei
+  P3: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1665 | d_empty=0.7066 | empty_like=ei
+  P4: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1194 | d_empty=0.7228 | empty_like=ei
+
+Pilt: takt_007.png
+Aeg videos: 62.599 s
+Triipkoodi lugemise aeg: 666.7 ms
+OCR aeg (4 kuupäeva ala): 1091.7 ms
+S4: EAN13: 4740574008052 | Toode: Nõo Rulaad 135 g | Säilivusaeg: 13.04.2026 | crop=full_frame
+  S1: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=clahe | raw=15032026
+  S2: kuupäev puudub | tulemus=NA | oodatav=15.03.2026 | staatus=- | variant=orig | raw=0626
+  S3: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=orig | raw=15032026
+  S4: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=orig | raw=15032026
+  L11: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.2010 | d_empty=0.5751 | empty_like=ei
+  L12: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1402 | d_empty=0.5763 | empty_like=ei
+  L13: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.0479 | d_empty=0.5469 | empty_like=ei
+  L14: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=kalkun | d_pos=0.0666 | d_empty=0.5783 | empty_like=ei
+  L21: area=label2 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1322 | d_empty=0.6730 | empty_like=ei
+  L22: area=label2 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1426 | d_empty=0.6308 | empty_like=ei
+  L23: area=label2 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1021 | d_empty=0.7478 | empty_like=ei
+  L24: area=label2 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.0925 | d_empty=0.7398 | empty_like=ei
+  P1: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.2387 | d_empty=0.7095 | empty_like=ei
+  P2: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.2858 | d_empty=0.6353 | empty_like=ei
+  P3: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.2834 | d_empty=0.6895 | empty_like=ei
+  P4: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.2300 | d_empty=0.7515 | empty_like=ei
+
+Pilt: takt_008.png
+Aeg videos: 75.628 s
+Triipkoodi lugemise aeg: 651.1 ms
+OCR aeg (4 kuupäeva ala): 1087.0 ms
+Triipkood: ei leitud
+  S1: kuupäev olemas | tulemus=15.00.2026 | oodatav=15.03.2026 | staatus=vale | variant=clahe | raw=15002026
+  S2: kuupäev puudub | tulemus=NA | oodatav=15.03.2026 | staatus=- | variant=orig | raw=KOZAR
+  S3: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=orig | raw=15032026
+  S4: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=orig | raw=15.03.2026
+  L11: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=kalkun | d_pos=0.3065 | d_empty=0.5556 | empty_like=ei
+  L12: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=kalkun | d_pos=0.1380 | d_empty=0.5047 | empty_like=ei
+  L13: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.0976 | d_empty=0.5527 | empty_like=ei
+  L14: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=kalkun | d_pos=0.1012 | d_empty=0.5725 | empty_like=ei
+  L21: area=label2 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1140 | d_empty=0.6835 | empty_like=ei
+  L22: area=label2 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1399 | d_empty=0.6336 | empty_like=ei
+  L23: area=label2 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1425 | d_empty=0.7626 | empty_like=ei
+  L24: area=label2 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1046 | d_empty=0.7491 | empty_like=ei
+  P1: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.2286 | d_empty=0.6925 | empty_like=ei
+  P2: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1780 | d_empty=0.7087 | empty_like=ei
+  P3: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.2589 | d_empty=0.6987 | empty_like=ei
+  P4: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1961 | d_empty=0.6521 | empty_like=ei
+
+Pilt: takt_009.png
+Aeg videos: 82.611 s
+Triipkoodi lugemise aeg: 599.2 ms
+OCR aeg (4 kuupäeva ala): 1060.4 ms
+S4: EAN13: 4740574008052 | Toode: Nõo Rulaad 135 g | Säilivusaeg: 13.04.2026 | crop=full_frame
+  S1: kuupäev puudub | tulemus=NA | oodatav=15.03.2026 | staatus=- | variant=orig | raw=1E032026
+  S2: kuupäev puudub | tulemus=NA | oodatav=15.03.2026 | staatus=- | variant=orig | raw=250Z0AR
+  S3: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=clahe | raw=15032026
+  S4: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=orig | raw=15032026
+  L11: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1954 | d_empty=0.5457 | empty_like=ei
+  L12: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1289 | d_empty=0.5091 | empty_like=ei
+  L13: area=label1 | nn=kalkun | centroid=kalkun | nearest_class=veis | d_pos=0.1542 | d_empty=0.6144 | empty_like=ei
+  L14: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.0684 | d_empty=0.5443 | empty_like=ei
+  L21: area=label2 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1506 | d_empty=0.6352 | empty_like=ei
+  L22: area=label2 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.0982 | d_empty=0.6402 | empty_like=ei
+  L23: area=label2 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1271 | d_empty=0.7436 | empty_like=ei
+  L24: area=label2 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.0937 | d_empty=0.6940 | empty_like=ei
+  P1: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.2556 | d_empty=0.7361 | empty_like=ei
+  P2: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.2089 | d_empty=0.6932 | empty_like=ei
+  P3: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.2934 | d_empty=0.8626 | empty_like=ei
+  P4: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1529 | d_empty=0.7545 | empty_like=ei
+
+Pilt: takt_010.png
+Aeg videos: 89.595 s
+Triipkoodi lugemise aeg: 608.8 ms
+OCR aeg (4 kuupäeva ala): 1110.6 ms
+S3: EAN13: 4740574008052 | Toode: Nõo Rulaad 135 g | Säilivusaeg: 13.04.2026 | crop=full_frame
+S4: EAN13: 4740574008052 | Toode: Nõo Rulaad 135 g | Säilivusaeg: 13.04.2026 | crop=full_frame
+  S1: kuupäev olemas | tulemus=16.03.2026 | oodatav=15.03.2026 | staatus=vale | variant=clahe | raw=16032026
+  S2: kuupäev puudub | tulemus=NA | oodatav=15.03.2026 | staatus=- | variant=orig | raw=
+  S3: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=orig | raw=15.032026
+  S4: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=orig | raw=15032026
+  L11: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1149 | d_empty=0.5503 | empty_like=ei
+  L12: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1657 | d_empty=0.5668 | empty_like=ei
+  L13: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1488 | d_empty=0.5985 | empty_like=ei
+  L14: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.0993 | d_empty=0.5520 | empty_like=ei
+  L21: area=label2 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1610 | d_empty=0.6833 | empty_like=ei
+  L22: area=label2 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1553 | d_empty=0.6593 | empty_like=ei
+  L23: area=label2 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1145 | d_empty=0.7371 | empty_like=ei
+  L24: area=label2 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.0697 | d_empty=0.7554 | empty_like=ei
+  P1: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.3102 | d_empty=0.7927 | empty_like=ei
+  P2: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1637 | d_empty=0.6440 | empty_like=ei
+  P3: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1493 | d_empty=0.7852 | empty_like=ei
+  P4: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.2137 | d_empty=0.6297 | empty_like=ei
+
+Pilt: takt_011.png
+Aeg videos: 97.565 s
+Triipkoodi lugemise aeg: 673.6 ms
+OCR aeg (4 kuupäeva ala): 1052.1 ms
+Triipkood: ei leitud
+  S1: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=orig | raw=15032026
+  S2: kuupäev puudub | tulemus=NA | oodatav=15.03.2026 | staatus=- | variant=orig | raw=103202
+  S3: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=clahe | raw=15.032026
+  S4: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=clahe | raw=15032026
+  L11: area=label1 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1161 | d_empty=0.5662 | empty_like=ei
+  L12: area=label1 | nn=kalkun | centroid=kalkun | nearest_class=kalkun | d_pos=0.1374 | d_empty=0.6308 | empty_like=ei
+  L13: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=kalkun | d_pos=0.0782 | d_empty=0.5824 | empty_like=ei
+  L14: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.0917 | d_empty=0.5853 | empty_like=ei
+  L21: area=label2 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1521 | d_empty=0.7289 | empty_like=ei
+  L22: area=label2 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1928 | d_empty=0.7573 | empty_like=ei
+  L23: area=label2 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1385 | d_empty=0.7178 | empty_like=ei
+  L24: area=label2 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.0925 | d_empty=0.7223 | empty_like=ei
+  P1: area=product_area | nn=kalkun | centroid=kalkun | nearest_class=kalkun | d_pos=0.7117 | d_empty=0.0392 | empty_like=jah
+  P2: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.6916 | d_empty=0.0942 | empty_like=jah
+  P3: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1640 | d_empty=0.6665 | empty_like=ei
+  P4: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1957 | d_empty=0.7474 | empty_like=ei
+
+Pilt: takt_012.png
+Aeg videos: 104.573 s
+Triipkoodi lugemise aeg: 1074.6 ms
+OCR aeg (4 kuupäeva ala): 1057.0 ms
+S4: EAN13: 4740574008052 | Toode: Nõo Rulaad 135 g | Säilivusaeg: 13.04.2026 | crop=full_frame
+  S1: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=orig | raw=15032026
+  S2: kuupäev olemas | tulemus=16.00.7026 | oodatav=15.03.2026 | staatus=vale | variant=orig | raw=16007026
+  S3: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=sharp | raw=15.032026
+  S4: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=orig | raw=15.03 2026
+  L11: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1296 | d_empty=0.5812 | empty_like=ei
+  L12: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1227 | d_empty=0.5120 | empty_like=ei
+  L13: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=veis | d_pos=0.0688 | d_empty=0.5670 | empty_like=ei
+  L14: area=label1 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.0780 | d_empty=0.6614 | empty_like=ei
+  L21: area=label2 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1458 | d_empty=0.7393 | empty_like=ei
+  L22: area=label2 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1489 | d_empty=0.6334 | empty_like=ei
+  L23: area=label2 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1109 | d_empty=0.7327 | empty_like=ei
+  L24: area=label2 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1558 | d_empty=0.7279 | empty_like=ei
+  P1: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.2684 | d_empty=0.7824 | empty_like=ei
+  P2: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1924 | d_empty=0.6963 | empty_like=ei
+  P3: area=product_area | nn=kalkun | centroid=rulaad | nearest_class=kalkun | d_pos=0.7622 | d_empty=0.0550 | empty_like=jah
+  P4: area=product_area | nn=kalkun | centroid=rulaad | nearest_class=kalkun | d_pos=0.7343 | d_empty=0.2553 | empty_like=jah
+
+Pilt: takt_013.png
+Aeg videos: 112.627 s
+Triipkoodi lugemise aeg: 1062.0 ms
+OCR aeg (4 kuupäeva ala): 1119.5 ms
+S3: EAN13: 4740574008052 | Toode: Nõo Rulaad 135 g | Säilivusaeg: 13.04.2026 | crop=full_frame
+S4: EAN13: 4740574008052 | Toode: Nõo Rulaad 135 g | Säilivusaeg: 13.04.2026 | crop=full_frame
+  S1: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=orig | raw=15032026
+  S2: kuupäev puudub | tulemus=NA | oodatav=15.03.2026 | staatus=- | variant=orig | raw=wm
+  S3: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=orig | raw=15032026
+  S4: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=orig | raw=15032026
+  L11: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1386 | d_empty=0.6262 | empty_like=ei
+  L12: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1154 | d_empty=0.5600 | empty_like=ei
+  L13: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.2522 | d_empty=0.6426 | empty_like=ei
+  L14: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1324 | d_empty=0.6194 | empty_like=ei
+  L21: area=label2 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.2169 | d_empty=0.6438 | empty_like=ei
+  L22: area=label2 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1403 | d_empty=0.6868 | empty_like=ei
+  L23: area=label2 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1324 | d_empty=0.7517 | empty_like=ei
+  L24: area=label2 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.2032 | d_empty=0.7076 | empty_like=ei
+  P1: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.2460 | d_empty=0.7562 | empty_like=ei
+  P2: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.2766 | d_empty=0.7811 | empty_like=ei
+  P3: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1685 | d_empty=0.7546 | empty_like=ei
+  P4: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1891 | d_empty=0.7782 | empty_like=ei
+
+Pilt: takt_014.png
+Aeg videos: 125.782 s
+Triipkoodi lugemise aeg: 639.8 ms
+OCR aeg (4 kuupäeva ala): 1071.9 ms
+S4: EAN13: 4740574008052 | Toode: Nõo Rulaad 135 g | Säilivusaeg: 13.04.2026 | crop=full_frame
+  S1: kuupäev olemas | tulemus=18.03.2026 | oodatav=15.03.2026 | staatus=vale | variant=orig | raw=18032026
+  S2: kuupäev puudub | tulemus=NA | oodatav=15.03.2026 | staatus=- | variant=orig | raw=10202
+  S3: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=orig | raw=15 032026
+  S4: kuupäev olemas | tulemus=15.03.2020 | oodatav=15.03.2026 | staatus=vale | variant=orig | raw=15032020
+  L11: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.2313 | d_empty=0.5859 | empty_like=ei
+  L12: area=label1 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1410 | d_empty=0.6197 | empty_like=ei
+  L13: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=veis | d_pos=0.0674 | d_empty=0.5598 | empty_like=ei
+  L14: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=veis | d_pos=0.1011 | d_empty=0.5606 | empty_like=ei
+  L21: area=label2 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1283 | d_empty=0.7516 | empty_like=ei
+  L22: area=label2 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1612 | d_empty=0.6408 | empty_like=ei
+  L23: area=label2 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1691 | d_empty=0.7706 | empty_like=ei
+  L24: area=label2 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1178 | d_empty=0.7715 | empty_like=ei
+  P1: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.3891 | d_empty=0.7869 | empty_like=ei
+  P2: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1989 | d_empty=0.7207 | empty_like=ei
+  P3: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.7111 | d_empty=0.3372 | empty_like=jah
+  P4: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.7114 | d_empty=0.2420 | empty_like=jah
+
+Pilt: takt_015.png
+Aeg videos: 133.022 s
+Triipkoodi lugemise aeg: 588.8 ms
+OCR aeg (4 kuupäeva ala): 1078.2 ms
+S4: EAN13: 4740574008052 | Toode: Nõo Rulaad 135 g | Säilivusaeg: 13.04.2026 | crop=full_frame
+  S1: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=sharp | raw=15032026
+  S2: kuupäev olemas | tulemus=25.03.2126 | oodatav=15.03.2026 | staatus=vale | variant=orig | raw=25032126
+  S3: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=orig | raw=15032026
+  S4: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=clahe | raw=15032026
+  L11: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1021 | d_empty=0.5970 | empty_like=ei
+  L12: area=label1 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1502 | d_empty=0.6630 | empty_like=ei
+  L13: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1220 | d_empty=0.5869 | empty_like=ei
+  L14: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1083 | d_empty=0.6278 | empty_like=ei
+  L21: area=label2 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1253 | d_empty=0.6894 | empty_like=ei
+  L22: area=label2 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1799 | d_empty=0.6850 | empty_like=ei
+  L23: area=label2 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1043 | d_empty=0.7410 | empty_like=ei
+  L24: area=label2 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1035 | d_empty=0.7093 | empty_like=ei
+  P1: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.2420 | d_empty=0.6227 | empty_like=ei
+  P2: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.3536 | d_empty=0.8372 | empty_like=ei
+  P3: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.3048 | d_empty=0.7891 | empty_like=ei
+  P4: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.3063 | d_empty=0.8210 | empty_like=ei
+
+Pilt: takt_016.png
+Aeg videos: 151.594 s
+Triipkoodi lugemise aeg: 955.5 ms
+OCR aeg (4 kuupäeva ala): 1098.9 ms
+S3: EAN13: 4740574008052 | Toode: Nõo Rulaad 135 g | Säilivusaeg: 13.04.2026 | crop=full_frame
+S4: EAN13: 4740574008052 | Toode: Nõo Rulaad 135 g | Säilivusaeg: 13.04.2026 | crop=full_frame
+  S1: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=orig | raw=15032026
+  S2: kuupäev olemas | tulemus=15.03.2626 | oodatav=15.03.2026 | staatus=vale | variant=sharp | raw=15032626
+  S3: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=orig | raw=15032026
+  S4: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=orig | raw=1503.2026
+  L11: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1531 | d_empty=0.6268 | empty_like=ei
+  L12: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1115 | d_empty=0.5758 | empty_like=ei
+  L13: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.0575 | d_empty=0.5693 | empty_like=ei
+  L14: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=kalkun | d_pos=0.0714 | d_empty=0.5506 | empty_like=ei
+  L21: area=label2 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1489 | d_empty=0.6337 | empty_like=ei
+  L22: area=label2 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1361 | d_empty=0.6834 | empty_like=ei
+  L23: area=label2 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1238 | d_empty=0.7599 | empty_like=ei
+  L24: area=label2 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.0836 | d_empty=0.7148 | empty_like=ei
+  P1: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1780 | d_empty=0.7542 | empty_like=ei
+  P2: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1580 | d_empty=0.7247 | empty_like=ei
+  P3: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.2677 | d_empty=0.7599 | empty_like=ei
+  P4: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1950 | d_empty=0.7416 | empty_like=ei
+
+Pilt: takt_017.png
+Aeg videos: 158.036 s
+Triipkoodi lugemise aeg: 1009.4 ms
+OCR aeg (4 kuupäeva ala): 1045.2 ms
+S3: EAN13: 4740574008052 | Toode: Nõo Rulaad 135 g | Säilivusaeg: 13.04.2026 | crop=full_frame
+  S1: kuupäev olemas | tulemus=10.03.2026 | oodatav=15.03.2026 | staatus=vale | variant=clahe | raw=10032026
+  S2: kuupäev olemas | tulemus=04.02.2026 | oodatav=15.03.2026 | staatus=vale | variant=clahe | raw=04022026
+  S3: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=orig | raw=15032026
+  S4: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=orig | raw=15032026
+  L11: area=label1 | nn=salami | centroid=salami | nearest_class=veis | d_pos=0.1018 | d_empty=0.5990 | empty_like=ei
+  L12: area=label1 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1613 | d_empty=0.5763 | empty_like=ei
+  L13: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.0947 | d_empty=0.5679 | empty_like=ei
+  L14: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=veis | d_pos=0.1106 | d_empty=0.6170 | empty_like=ei
+  L21: area=label2 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1685 | d_empty=0.7324 | empty_like=ei
+  L22: area=label2 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1536 | d_empty=0.6477 | empty_like=ei
+  L23: area=label2 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1512 | d_empty=0.7522 | empty_like=ei
+  L24: area=label2 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.0922 | d_empty=0.6638 | empty_like=ei
+  P1: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.2290 | d_empty=0.6585 | empty_like=ei
+  P2: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1581 | d_empty=0.7165 | empty_like=ei
+  P3: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.2144 | d_empty=0.7783 | empty_like=ei
+  P4: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.2440 | d_empty=0.7789 | empty_like=ei
+
+Pilt: takt_018.png
+Aeg videos: 165.666 s
+Triipkoodi lugemise aeg: 994.2 ms
+OCR aeg (4 kuupäeva ala): 1061.1 ms
+S4: EAN13: 4740574008052 | Toode: Nõo Rulaad 135 g | Säilivusaeg: 13.04.2026 | crop=full_frame
+  S1: kuupäev puudub | tulemus=NA | oodatav=15.03.2026 | staatus=- | variant=orig | raw=3102026
+  S2: kuupäev olemas | tulemus=15.03.2020 | oodatav=15.03.2026 | staatus=vale | variant=clahe | raw=15032020
+  S3: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=orig | raw=15032026
+  S4: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=orig | raw=15032026
+  L11: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1929 | d_empty=0.6119 | empty_like=ei
+  L12: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1353 | d_empty=0.6201 | empty_like=ei
+  L13: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=kalkun | d_pos=0.0829 | d_empty=0.5452 | empty_like=ei
+  L14: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.0568 | d_empty=0.5931 | empty_like=ei
+  L21: area=label2 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1375 | d_empty=0.6964 | empty_like=ei
+  L22: area=label2 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1918 | d_empty=0.6346 | empty_like=ei
+  L23: area=label2 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1181 | d_empty=0.7122 | empty_like=ei
+  L24: area=label2 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.0915 | d_empty=0.6935 | empty_like=ei
+  P1: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.2441 | d_empty=0.7008 | empty_like=ei
+  P2: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.2011 | d_empty=0.6177 | empty_like=ei
+  P3: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.2286 | d_empty=0.7945 | empty_like=ei
+  P4: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1888 | d_empty=0.7618 | empty_like=ei
+
+Pilt: takt_019.png
+Aeg videos: 172.650 s
+Triipkoodi lugemise aeg: 1054.3 ms
+OCR aeg (4 kuupäeva ala): 1049.1 ms
+S3: EAN13: 4740574008052 | Toode: Nõo Rulaad 135 g | Säilivusaeg: 13.04.2026 | crop=full_frame
+S4: EAN13: 4740574008052 | Toode: Nõo Rulaad 135 g | Säilivusaeg: 13.04.2026 | crop=full_frame
+  S1: kuupäev olemas | tulemus=15.05.2026 | oodatav=15.03.2026 | staatus=vale | variant=clahe | raw=15052026
+  S2: kuupäev puudub | tulemus=NA | oodatav=15.03.2026 | staatus=- | variant=orig | raw=NDZ02m
+  S3: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=orig | raw=15032026
+  S4: kuupäev olemas | tulemus=15.01.2026 | oodatav=15.03.2026 | staatus=vale | variant=orig | raw=15012026
+  L11: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1877 | d_empty=0.6102 | empty_like=ei
+  L12: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1488 | d_empty=0.5700 | empty_like=ei
+  L13: area=label1 | nn=kalkun | centroid=kalkun | nearest_class=veis | d_pos=0.2169 | d_empty=0.6476 | empty_like=ei
+  L14: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.0850 | d_empty=0.6181 | empty_like=ei
+  L21: area=label2 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1602 | d_empty=0.7375 | empty_like=ei
+  L22: area=label2 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1710 | d_empty=0.6340 | empty_like=ei
+  L23: area=label2 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.0900 | d_empty=0.7471 | empty_like=ei
+  L24: area=label2 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1138 | d_empty=0.6772 | empty_like=ei
+  P1: area=product_area | nn=kalkun | centroid=kalkun | nearest_class=kalkun | d_pos=0.3939 | d_empty=0.7451 | empty_like=ei
+  P2: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1566 | d_empty=0.7523 | empty_like=ei
+  P3: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.2491 | d_empty=0.7834 | empty_like=ei
+  P4: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1917 | d_empty=0.7465 | empty_like=ei
+
+Pilt: takt_020.png
+Aeg videos: 179.671 s
+Triipkoodi lugemise aeg: 569.8 ms
+OCR aeg (4 kuupäeva ala): 1038.3 ms
+Triipkood: ei leitud
+  S1: kuupäev olemas | tulemus=15.06.2026 | oodatav=15.03.2026 | staatus=vale | variant=clahe | raw=15062026
+  S2: kuupäev olemas | tulemus=45.03.7078 | oodatav=15.03.2026 | staatus=vale | variant=clahe | raw=45037078
+  S3: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=orig | raw=15032026
+  S4: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=sharp | raw=15032026
+  L11: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1834 | d_empty=0.5602 | empty_like=ei
+  L12: area=label1 | nn=salami | centroid=salami | nearest_class=veis | d_pos=0.1563 | d_empty=0.6169 | empty_like=ei
+  L13: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=kalkun | d_pos=0.0718 | d_empty=0.5992 | empty_like=ei
+  L14: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1271 | d_empty=0.6068 | empty_like=ei
+  L21: area=label2 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1453 | d_empty=0.7280 | empty_like=ei
+  L22: area=label2 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1300 | d_empty=0.6595 | empty_like=ei
+  L23: area=label2 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1412 | d_empty=0.7663 | empty_like=ei
+  L24: area=label2 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1192 | d_empty=0.7305 | empty_like=ei
+  P1: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1588 | d_empty=0.7320 | empty_like=ei
+  P2: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.2000 | d_empty=0.7257 | empty_like=ei
+  P3: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1916 | d_empty=0.8008 | empty_like=ei
+  P4: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1283 | d_empty=0.7742 | empty_like=ei
+
+Pilt: takt_021.png
+Aeg videos: 187.664 s
+Triipkoodi lugemise aeg: 617.4 ms
+OCR aeg (4 kuupäeva ala): 1041.3 ms
+S3: EAN13: 4740574008052 | Toode: Nõo Rulaad 135 g | Säilivusaeg: 13.04.2026 | crop=full_frame
+  S1: kuupäev puudub | tulemus=NA | oodatav=15.03.2026 | staatus=- | variant=orig | raw=1-002026
+  S2: kuupäev puudub | tulemus=NA | oodatav=15.03.2026 | staatus=- | variant=orig | raw=103208
+  S3: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=orig | raw=15032026
+  S4: kuupäev olemas | tulemus=15.03.2026 | oodatav=15.03.2026 | staatus=oige | variant=sharp | raw=15.03 2026
+  L11: area=label1 | nn=kalkun | centroid=kalkun | nearest_class=kalkun | d_pos=0.1198 | d_empty=0.5003 | empty_like=ei
+  L12: area=label1 | nn=kalkun | centroid=kalkun | nearest_class=kalkun | d_pos=0.1323 | d_empty=0.6147 | empty_like=ei
+  L13: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1044 | d_empty=0.5660 | empty_like=ei
+  L14: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.0747 | d_empty=0.6124 | empty_like=ei
+  L21: area=label2 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1278 | d_empty=0.7053 | empty_like=ei
+  L22: area=label2 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1649 | d_empty=0.7087 | empty_like=ei
+  L23: area=label2 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1031 | d_empty=0.7442 | empty_like=ei
+  L24: area=label2 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.0721 | d_empty=0.7018 | empty_like=ei
+  P1: area=product_area | nn=kalkun | centroid=kalkun | nearest_class=kalkun | d_pos=0.2643 | d_empty=0.8024 | empty_like=ei
+  P2: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.2484 | d_empty=0.7418 | empty_like=ei
+  P3: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1736 | d_empty=0.7720 | empty_like=ei
+  P4: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.2273 | d_empty=0.7788 | empty_like=ei
+
+Statistika
+==========
+Takte kokku: 21
+Tuvastatud taktide arv: 15
+Triipkoodi tuvastusmäär: 71.43%
+Keskmine triipkoode pildi kohta: 0.952
+Pakke kokku OCR-is: 84
+Kuupäev olemas: 67
+Kuupäev puudub: 17
+Kuupäeva saagis: 79.76%
+Õige kuupäev: 48
+Vale kuupäev: 19
+Kuupäeva täpsus: 71.64%
+DINOv2 label1 slots kokku: 84
+DINOv2 label1 empty_like: 0
+DINOv2 label1 non-empty: 84
+DINOv2 label1 õige toode: 68
+DINOv2 label1 toote täpsus: 80.95%
+DINOv2 label2 slots kokku: 84
+DINOv2 label2 empty_like: 0
+DINOv2 label2 non-empty: 84
+DINOv2 label2 õige toode: 84
+DINOv2 label2 toote täpsus: 100.00%
+DINOv2 product_area slots kokku: 84
+DINOv2 product_area empty_like: 6
+DINOv2 product_area non-empty: 78
+DINOv2 product_area õige toode: 76
+DINOv2 product_area toote täpsus: 97.44%
+Triipkoodi keskmine lugemisaeg: 829.61 ms
+Triipkoodi maksimaalne lugemisaeg: 1074.62 ms
+OCR keskmine aeg takti kohta: 1078.44 ms
+OCR maksimaalne aeg takti kohta: 1155.29 ms

@@ -1,0 +1,456 @@
+Triipkoodi ja kuupäeva tulemused
+===========================
+
+Pilt: takt_001.png
+Aeg videos: 16.299 s
+Triipkoodi lugemise aeg: 666.1 ms
+OCR aeg (4 kuupäeva ala): 1070.5 ms
+Triipkood: ei leitud
+  S1: kuupäev puudub | tulemus=NA | oodatav=18.05.2026 | staatus=- | variant=orig | raw=
+  S2: kuupäev puudub | tulemus=NA | oodatav=18.05.2026 | staatus=- | variant=orig | raw=V
+  S3: kuupäev puudub | tulemus=NA | oodatav=18.05.2026 | staatus=- | variant=orig | raw=
+  S4: kuupäev puudub | tulemus=NA | oodatav=18.05.2026 | staatus=- | variant=orig | raw=
+  L11: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=salami | d_pos=0.7198 | d_empty=0.4085 | empty_like=ei
+  L12: area=label1 | nn=salami | centroid=salami | nearest_class=rulaad | d_pos=0.7507 | d_empty=0.3147 | empty_like=jah
+  L13: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.5685 | d_empty=0.3259 | empty_like=jah
+  L14: area=label1 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.6908 | d_empty=0.3501 | empty_like=jah
+  L21: area=label2 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.8690 | d_empty=0.4138 | empty_like=jah
+  L22: area=label2 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.8420 | d_empty=0.2633 | empty_like=jah
+  L23: area=label2 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.8085 | d_empty=0.3853 | empty_like=jah
+  L24: area=label2 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.8123 | d_empty=0.4230 | empty_like=jah
+  P1: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.7606 | d_empty=0.1280 | empty_like=jah
+  P2: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.6515 | d_empty=0.1899 | empty_like=jah
+  P3: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.7402 | d_empty=0.2863 | empty_like=jah
+  P4: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.7225 | d_empty=0.3267 | empty_like=jah
+
+Pilt: takt_002.png
+Aeg videos: 25.301 s
+Triipkoodi lugemise aeg: 713.1 ms
+OCR aeg (4 kuupäeva ala): 1041.6 ms
+Triipkood: ei leitud
+  S1: kuupäev olemas | tulemus=16.05.2026 | oodatav=18.05.2026 | staatus=vale | variant=adaptive | raw=16052026
+  S2: kuupäev olemas | tulemus=18.00.2020 | oodatav=18.05.2026 | staatus=vale | variant=clahe | raw=18002020
+  S3: kuupäev olemas | tulemus=18.05.2026 | oodatav=18.05.2026 | staatus=oige | variant=clahe | raw=1805.2026
+  S4: kuupäev olemas | tulemus=18.05.2026 | oodatav=18.05.2026 | staatus=oige | variant=orig | raw=18052026
+  L11: area=label1 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.0805 | d_empty=0.6520 | empty_like=ei
+  L12: area=label1 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1980 | d_empty=0.6207 | empty_like=ei
+  L13: area=label1 | nn=kalkun | centroid=kalkun | nearest_class=salami | d_pos=0.2230 | d_empty=0.5887 | empty_like=ei
+  L14: area=label1 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.0634 | d_empty=0.6229 | empty_like=ei
+  L21: area=label2 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.0885 | d_empty=0.7538 | empty_like=ei
+  L22: area=label2 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.0617 | d_empty=0.7249 | empty_like=ei
+  L23: area=label2 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.7627 | d_empty=0.3825 | empty_like=jah
+  L24: area=label2 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.7142 | d_empty=0.3315 | empty_like=jah
+  P1: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.7985 | d_empty=0.0664 | empty_like=jah
+  P2: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.7070 | d_empty=0.2049 | empty_like=jah
+  P3: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.7645 | d_empty=0.2897 | empty_like=jah
+  P4: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.6525 | d_empty=0.3619 | empty_like=jah
+
+Pilt: takt_003.png
+Aeg videos: 32.739 s
+Triipkoodi lugemise aeg: 1052.6 ms
+OCR aeg (4 kuupäeva ala): 1044.8 ms
+S3: EAN13: 4740574009820 | Toode: VSL keedusalaami 105 g | Säilivusaeg: 16.06.2026 | crop=full_frame
+S4: EAN13: 4740574009820 | Toode: VSL keedusalaami 105 g | Säilivusaeg: 16.06.2026 | crop=full_frame
+  S1: kuupäev olemas | tulemus=18.05.2026 | oodatav=18.05.2026 | staatus=oige | variant=orig | raw=18052026
+  S2: kuupäev puudub | tulemus=NA | oodatav=18.05.2026 | staatus=- | variant=orig | raw=
+  S3: kuupäev olemas | tulemus=18.05.2026 | oodatav=18.05.2026 | staatus=oige | variant=orig | raw=18052026
+  S4: kuupäev olemas | tulemus=18.05.2026 | oodatav=18.05.2026 | staatus=oige | variant=orig | raw=18052026
+  L11: area=label1 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.0087 | d_empty=0.6303 | empty_like=ei
+  L12: area=label1 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.0197 | d_empty=0.6212 | empty_like=ei
+  L13: area=label1 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.0014 | d_empty=0.6031 | empty_like=ei
+  L14: area=label1 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.0678 | d_empty=0.5913 | empty_like=ei
+  L21: area=label2 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1082 | d_empty=0.7299 | empty_like=ei
+  L22: area=label2 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.0027 | d_empty=0.7393 | empty_like=ei
+  L23: area=label2 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.0012 | d_empty=0.7255 | empty_like=ei
+  L24: area=label2 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.0016 | d_empty=0.7708 | empty_like=ei
+  P1: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.7182 | d_empty=0.0858 | empty_like=jah
+  P2: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.6884 | d_empty=0.1613 | empty_like=jah
+  P3: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.7696 | d_empty=0.1740 | empty_like=jah
+  P4: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.6604 | d_empty=0.0771 | empty_like=jah
+
+Pilt: takt_004.png
+Aeg videos: 39.814 s
+Triipkoodi lugemise aeg: 1056.6 ms
+OCR aeg (4 kuupäeva ala): 1039.6 ms
+S3: EAN13: 4740574009820 | Toode: VSL keedusalaami 105 g | Säilivusaeg: 16.06.2026 | crop=full_frame
+S4: EAN13: 4740574009820 | Toode: VSL keedusalaami 105 g | Säilivusaeg: 16.06.2026 | crop=full_frame
+  S1: kuupäev olemas | tulemus=10.06.7026 | oodatav=18.05.2026 | staatus=vale | variant=clahe | raw=10067026
+  S2: kuupäev puudub | tulemus=NA | oodatav=18.05.2026 | staatus=- | variant=orig | raw=9052026
+  S3: kuupäev olemas | tulemus=18.05.2026 | oodatav=18.05.2026 | staatus=oige | variant=orig | raw=18052026
+  S4: kuupäev olemas | tulemus=18.05.2026 | oodatav=18.05.2026 | staatus=oige | variant=clahe | raw=18052026
+  L11: area=label1 | nn=kalkun | centroid=kalkun | nearest_class=kalkun | d_pos=0.1126 | d_empty=0.6763 | empty_like=ei
+  L12: area=label1 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1006 | d_empty=0.6620 | empty_like=ei
+  L13: area=label1 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.0522 | d_empty=0.6013 | empty_like=ei
+  L14: area=label1 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.0609 | d_empty=0.6156 | empty_like=ei
+  L21: area=label2 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1370 | d_empty=0.7656 | empty_like=ei
+  L22: area=label2 | nn=salami | centroid=rulaad | nearest_class=salami | d_pos=0.1593 | d_empty=0.7029 | empty_like=ei
+  L23: area=label2 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1015 | d_empty=0.7683 | empty_like=ei
+  L24: area=label2 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1960 | d_empty=0.7298 | empty_like=ei
+  P1: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.7529 | d_empty=0.7564 | empty_like=ei
+  P2: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.7225 | d_empty=0.0018 | empty_like=jah
+  P3: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.8490 | d_empty=0.0041 | empty_like=jah
+  P4: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.6852 | d_empty=0.0017 | empty_like=jah
+
+Pilt: takt_005.png
+Aeg videos: 46.837 s
+Triipkoodi lugemise aeg: 1295.7 ms
+OCR aeg (4 kuupäeva ala): 1055.3 ms
+S3: EAN13: 4740574009820 | Toode: VSL keedusalaami 105 g | Säilivusaeg: 16.06.2026 | crop=full_frame
+  S1: kuupäev olemas | tulemus=18.05.2026 | oodatav=18.05.2026 | staatus=oige | variant=orig | raw=18052026
+  S2: kuupäev puudub | tulemus=NA | oodatav=18.05.2026 | staatus=- | variant=orig | raw=070%
+  S3: kuupäev olemas | tulemus=18.05.2026 | oodatav=18.05.2026 | staatus=oige | variant=orig | raw=18.052026
+  S4: kuupäev olemas | tulemus=18.05.2026 | oodatav=18.05.2026 | staatus=oige | variant=clahe | raw=18052026
+  L11: area=label1 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1379 | d_empty=0.6384 | empty_like=ei
+  L12: area=label1 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.2623 | d_empty=0.7438 | empty_like=ei
+  L13: area=label1 | nn=veis | centroid=veis | nearest_class=salami | d_pos=0.0682 | d_empty=0.6273 | empty_like=ei
+  L14: area=label1 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1459 | d_empty=0.5986 | empty_like=ei
+  L21: area=label2 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1036 | d_empty=0.7762 | empty_like=ei
+  L22: area=label2 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.0444 | d_empty=0.7550 | empty_like=ei
+  L23: area=label2 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.0944 | d_empty=0.7589 | empty_like=ei
+  L24: area=label2 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1495 | d_empty=0.7378 | empty_like=ei
+  P1: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.7778 | d_empty=0.0006 | empty_like=jah
+  P2: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.7068 | d_empty=0.0014 | empty_like=jah
+  P3: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.7707 | d_empty=0.0024 | empty_like=jah
+  P4: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.6758 | d_empty=0.0013 | empty_like=jah
+
+Pilt: takt_006.png
+Aeg videos: 54.772 s
+Triipkoodi lugemise aeg: 824.4 ms
+OCR aeg (4 kuupäeva ala): 1056.6 ms
+Triipkood: ei leitud
+  S1: kuupäev olemas | tulemus=18.05.2026 | oodatav=18.05.2026 | staatus=oige | variant=orig | raw=18052026
+  S2: kuupäev puudub | tulemus=NA | oodatav=18.05.2026 | staatus=- | variant=orig | raw=8052
+  S3: kuupäev olemas | tulemus=18.05.2026 | oodatav=18.05.2026 | staatus=oige | variant=clahe | raw=18052026
+  S4: kuupäev olemas | tulemus=18.05.2026 | oodatav=18.05.2026 | staatus=oige | variant=orig | raw=18052026
+  L11: area=label1 | nn=salami | centroid=salami | nearest_class=kalkun | d_pos=0.1083 | d_empty=0.6260 | empty_like=ei
+  L12: area=label1 | nn=salami | centroid=salami | nearest_class=kalkun | d_pos=0.1131 | d_empty=0.6769 | empty_like=ei
+  L13: area=label1 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.0719 | d_empty=0.6046 | empty_like=ei
+  L14: area=label1 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.0831 | d_empty=0.6270 | empty_like=ei
+  L21: area=label2 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.0944 | d_empty=0.7296 | empty_like=ei
+  L22: area=label2 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.0938 | d_empty=0.7338 | empty_like=ei
+  L23: area=label2 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.0995 | d_empty=0.7300 | empty_like=ei
+  L24: area=label2 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.0874 | d_empty=0.7746 | empty_like=ei
+  P1: area=product_area | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.7875 | d_empty=0.0038 | empty_like=jah
+  P2: area=product_area | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.0813 | d_empty=0.8659 | empty_like=ei
+  P3: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.7475 | d_empty=0.0025 | empty_like=jah
+  P4: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.6760 | d_empty=0.0020 | empty_like=jah
+
+Pilt: takt_007.png
+Aeg videos: 64.822 s
+Triipkoodi lugemise aeg: 1050.7 ms
+OCR aeg (4 kuupäeva ala): 1066.6 ms
+S4: EAN13: 4740574009820 | Toode: VSL keedusalaami 105 g | Säilivusaeg: 16.06.2026 | crop=full_frame
+  S1: kuupäev puudub | tulemus=NA | oodatav=18.05.2026 | staatus=- | variant=orig | raw=1057120
+  S2: kuupäev puudub | tulemus=NA | oodatav=18.05.2026 | staatus=- | variant=orig | raw=0702
+  S3: kuupäev olemas | tulemus=18.05.2026 | oodatav=18.05.2026 | staatus=oige | variant=orig | raw=18.052026
+  S4: kuupäev puudub | tulemus=NA | oodatav=18.05.2026 | staatus=- | variant=orig | raw=T话15202
+  L11: area=label1 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.2136 | d_empty=0.6063 | empty_like=ei
+  L12: area=label1 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1415 | d_empty=0.6833 | empty_like=ei
+  L13: area=label1 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1488 | d_empty=0.6241 | empty_like=ei
+  L14: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=salami | d_pos=0.2042 | d_empty=0.6400 | empty_like=ei
+  L21: area=label2 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1594 | d_empty=0.7669 | empty_like=ei
+  L22: area=label2 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1673 | d_empty=0.6991 | empty_like=ei
+  L23: area=label2 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1821 | d_empty=0.8536 | empty_like=ei
+  L24: area=label2 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1881 | d_empty=0.7568 | empty_like=ei
+  P1: area=product_area | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1294 | d_empty=0.9060 | empty_like=ei
+  P2: area=product_area | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.0830 | d_empty=0.8904 | empty_like=ei
+  P3: area=product_area | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.0006 | d_empty=0.9242 | empty_like=ei
+  P4: area=product_area | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.0003 | d_empty=0.8773 | empty_like=ei
+
+Pilt: takt_008.png
+Aeg videos: 73.837 s
+Triipkoodi lugemise aeg: 937.1 ms
+OCR aeg (4 kuupäeva ala): 1082.1 ms
+Triipkood: ei leitud
+  S1: kuupäev olemas | tulemus=18.05.2076 | oodatav=18.05.2026 | staatus=vale | variant=orig | raw=18052076
+  S2: kuupäev puudub | tulemus=NA | oodatav=18.05.2026 | staatus=- | variant=orig | raw=106
+  S3: kuupäev olemas | tulemus=18.05.2026 | oodatav=18.05.2026 | staatus=oige | variant=orig | raw=18052026
+  S4: kuupäev olemas | tulemus=18.05.2026 | oodatav=18.05.2026 | staatus=oige | variant=orig | raw=18052026
+  L11: area=label1 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1790 | d_empty=0.6477 | empty_like=ei
+  L12: area=label1 | nn=salami | centroid=salami | nearest_class=veis | d_pos=0.2343 | d_empty=0.7441 | empty_like=ei
+  L13: area=label1 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1840 | d_empty=0.6419 | empty_like=ei
+  L14: area=label1 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1123 | d_empty=0.6289 | empty_like=ei
+  L21: area=label2 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1776 | d_empty=0.7640 | empty_like=ei
+  L22: area=label2 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1373 | d_empty=0.7255 | empty_like=ei
+  L23: area=label2 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1081 | d_empty=0.7893 | empty_like=ei
+  L24: area=label2 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1926 | d_empty=0.7297 | empty_like=ei
+  P1: area=product_area | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.0006 | d_empty=0.8855 | empty_like=ei
+  P2: area=product_area | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1029 | d_empty=0.8797 | empty_like=ei
+  P3: area=product_area | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.0721 | d_empty=0.8996 | empty_like=ei
+  P4: area=product_area | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.0649 | d_empty=0.8834 | empty_like=ei
+
+Pilt: takt_009.png
+Aeg videos: 86.787 s
+Triipkoodi lugemise aeg: 904.4 ms
+OCR aeg (4 kuupäeva ala): 1081.9 ms
+Triipkood: ei leitud
+  S1: kuupäev olemas | tulemus=18.05.2026 | oodatav=18.05.2026 | staatus=oige | variant=orig | raw=18052026
+  S2: kuupäev puudub | tulemus=NA | oodatav=18.05.2026 | staatus=- | variant=orig | raw=6.052026
+  S3: kuupäev puudub | tulemus=NA | oodatav=18.05.2026 | staatus=- | variant=orig | raw=180EZ0ZE
+  S4: kuupäev olemas | tulemus=18.05.2026 | oodatav=18.05.2026 | staatus=oige | variant=clahe | raw=18052026
+  L11: area=label1 | nn=salami | centroid=salami | nearest_class=kalkun | d_pos=0.1853 | d_empty=0.6258 | empty_like=ei
+  L12: area=label1 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1482 | d_empty=0.6733 | empty_like=ei
+  L13: area=label1 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1476 | d_empty=0.5933 | empty_like=ei
+  L14: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.2172 | d_empty=0.5906 | empty_like=ei
+  L21: area=label2 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1236 | d_empty=0.7590 | empty_like=ei
+  L22: area=label2 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1983 | d_empty=0.7756 | empty_like=ei
+  L23: area=label2 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1092 | d_empty=0.7785 | empty_like=ei
+  L24: area=label2 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1601 | d_empty=0.7641 | empty_like=ei
+  P1: area=product_area | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1260 | d_empty=0.8948 | empty_like=ei
+  P2: area=product_area | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1057 | d_empty=0.8924 | empty_like=ei
+  P3: area=product_area | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.0704 | d_empty=0.8849 | empty_like=ei
+  P4: area=product_area | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.0613 | d_empty=0.8911 | empty_like=ei
+
+Pilt: takt_010.png
+Aeg videos: 94.020 s
+Triipkoodi lugemise aeg: 1073.1 ms
+OCR aeg (4 kuupäeva ala): 1046.9 ms
+Triipkood: ei leitud
+  S1: kuupäev olemas | tulemus=18.05.2026 | oodatav=18.05.2026 | staatus=oige | variant=orig | raw=18052026
+  S2: kuupäev puudub | tulemus=NA | oodatav=18.05.2026 | staatus=- | variant=orig | raw=M
+  S3: kuupäev olemas | tulemus=18.06.2026 | oodatav=18.05.2026 | staatus=vale | variant=orig | raw=18062026
+  S4: kuupäev olemas | tulemus=18.05.2023 | oodatav=18.05.2026 | staatus=vale | variant=orig | raw=18052023
+  L11: area=label1 | nn=salami | centroid=salami | nearest_class=kalkun | d_pos=0.1533 | d_empty=0.6294 | empty_like=ei
+  L12: area=label1 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1084 | d_empty=0.6191 | empty_like=ei
+  L13: area=label1 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1564 | d_empty=0.5569 | empty_like=ei
+  L14: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=salami | d_pos=0.1836 | d_empty=0.5998 | empty_like=ei
+  L21: area=label2 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1670 | d_empty=0.7277 | empty_like=ei
+  L22: area=label2 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1134 | d_empty=0.7457 | empty_like=ei
+  L23: area=label2 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.0925 | d_empty=0.7678 | empty_like=ei
+  L24: area=label2 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1645 | d_empty=0.7458 | empty_like=ei
+  P1: area=product_area | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1182 | d_empty=0.8931 | empty_like=ei
+  P2: area=product_area | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.0681 | d_empty=0.9136 | empty_like=ei
+  P3: area=product_area | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.0655 | d_empty=0.8606 | empty_like=ei
+  P4: area=product_area | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.0541 | d_empty=0.8842 | empty_like=ei
+
+Pilt: takt_011.png
+Aeg videos: 101.830 s
+Triipkoodi lugemise aeg: 807.1 ms
+OCR aeg (4 kuupäeva ala): 1094.9 ms
+S3: EAN13: 4740574009820 | Toode: VSL keedusalaami 105 g | Säilivusaeg: 16.06.2026 | crop=full_frame
+  S1: kuupäev olemas | tulemus=18.05.2026 | oodatav=18.05.2026 | staatus=oige | variant=orig | raw=18052026
+  S2: kuupäev puudub | tulemus=NA | oodatav=18.05.2026 | staatus=- | variant=orig | raw=G0L2
+  S3: kuupäev olemas | tulemus=18.05.2026 | oodatav=18.05.2026 | staatus=oige | variant=orig | raw=18052026
+  S4: kuupäev puudub | tulemus=NA | oodatav=18.05.2026 | staatus=- | variant=orig | raw=1H0520257
+  L11: area=label1 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1685 | d_empty=0.6627 | empty_like=ei
+  L12: area=label1 | nn=salami | centroid=salami | nearest_class=kalkun | d_pos=0.1190 | d_empty=0.7136 | empty_like=ei
+  L13: area=label1 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1401 | d_empty=0.6559 | empty_like=ei
+  L14: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.3395 | d_empty=0.6662 | empty_like=ei
+  L21: area=label2 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1290 | d_empty=0.7617 | empty_like=ei
+  L22: area=label2 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1449 | d_empty=0.7611 | empty_like=ei
+  L23: area=label2 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.0705 | d_empty=0.7312 | empty_like=ei
+  L24: area=label2 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1808 | d_empty=0.7776 | empty_like=ei
+  P1: area=product_area | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.0920 | d_empty=0.8956 | empty_like=ei
+  P2: area=product_area | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.0740 | d_empty=0.8790 | empty_like=ei
+  P3: area=product_area | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.0592 | d_empty=0.8685 | empty_like=ei
+  P4: area=product_area | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.0476 | d_empty=0.8606 | empty_like=ei
+
+Pilt: takt_012.png
+Aeg videos: 108.753 s
+Triipkoodi lugemise aeg: 1071.7 ms
+OCR aeg (4 kuupäeva ala): 1044.9 ms
+Triipkood: ei leitud
+  S1: kuupäev olemas | tulemus=18.05.2026 | oodatav=18.05.2026 | staatus=oige | variant=orig | raw=18052026
+  S2: kuupäev puudub | tulemus=NA | oodatav=18.05.2026 | staatus=- | variant=orig | raw=
+  S3: kuupäev olemas | tulemus=18.05.7026 | oodatav=18.05.2026 | staatus=vale | variant=orig | raw=18057026
+  S4: kuupäev olemas | tulemus=18.05.2025 | oodatav=18.05.2026 | staatus=vale | variant=clahe | raw=18052025
+  L11: area=label1 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.0628 | d_empty=0.6300 | empty_like=ei
+  L12: area=label1 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1465 | d_empty=0.7099 | empty_like=ei
+  L13: area=label1 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.2136 | d_empty=0.6568 | empty_like=ei
+  L14: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.2174 | d_empty=0.6040 | empty_like=ei
+  L21: area=label2 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1052 | d_empty=0.7791 | empty_like=ei
+  L22: area=label2 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1252 | d_empty=0.7604 | empty_like=ei
+  L23: area=label2 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1223 | d_empty=0.7927 | empty_like=ei
+  L24: area=label2 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1342 | d_empty=0.7145 | empty_like=ei
+  P1: area=product_area | nn=rulaad | centroid=veis | nearest_class=rulaad | d_pos=0.6803 | d_empty=0.2857 | empty_like=jah
+  P2: area=product_area | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.0676 | d_empty=0.8873 | empty_like=ei
+  P3: area=product_area | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.0805 | d_empty=0.8908 | empty_like=ei
+  P4: area=product_area | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.0710 | d_empty=0.8588 | empty_like=ei
+
+Pilt: takt_013.png
+Aeg videos: 115.716 s
+Triipkoodi lugemise aeg: 504.9 ms
+OCR aeg (4 kuupäeva ala): 1060.3 ms
+Triipkood: ei leitud
+  S1: kuupäev olemas | tulemus=18.05.2026 | oodatav=18.05.2026 | staatus=oige | variant=orig | raw=18.052026
+  S2: kuupäev puudub | tulemus=NA | oodatav=18.05.2026 | staatus=- | variant=orig | raw=2052026
+  S3: kuupäev puudub | tulemus=NA | oodatav=18.05.2026 | staatus=- | variant=orig | raw=807026
+  S4: kuupäev puudub | tulemus=NA | oodatav=18.05.2026 | staatus=- | variant=orig | raw=8052029
+  L11: area=label1 | nn=salami | centroid=salami | nearest_class=kalkun | d_pos=0.0996 | d_empty=0.6197 | empty_like=ei
+  L12: area=label1 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1269 | d_empty=0.6640 | empty_like=ei
+  L13: area=label1 | nn=salami | centroid=salami | nearest_class=rulaad | d_pos=0.1433 | d_empty=0.6434 | empty_like=ei
+  L14: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=salami | d_pos=0.2303 | d_empty=0.5875 | empty_like=ei
+  L21: area=label2 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.0769 | d_empty=0.7701 | empty_like=ei
+  L22: area=label2 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.0980 | d_empty=0.7373 | empty_like=ei
+  L23: area=label2 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1472 | d_empty=0.7819 | empty_like=ei
+  L24: area=label2 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1737 | d_empty=0.7304 | empty_like=ei
+  P1: area=product_area | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.7721 | d_empty=0.2001 | empty_like=jah
+  P2: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.6792 | d_empty=0.1875 | empty_like=jah
+  P3: area=product_area | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.0816 | d_empty=0.8690 | empty_like=ei
+  P4: area=product_area | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.0620 | d_empty=0.8599 | empty_like=ei
+
+Pilt: takt_014.png
+Aeg videos: 124.797 s
+Triipkoodi lugemise aeg: 816.2 ms
+OCR aeg (4 kuupäeva ala): 1074.8 ms
+Triipkood: ei leitud
+  S1: kuupäev olemas | tulemus=18.05.2026 | oodatav=18.05.2026 | staatus=oige | variant=orig | raw=18052026
+  S2: kuupäev puudub | tulemus=NA | oodatav=18.05.2026 | staatus=- | variant=orig | raw=20570
+  S3: kuupäev olemas | tulemus=18.05.2026 | oodatav=18.05.2026 | staatus=oige | variant=orig | raw=18:052026
+  S4: kuupäev puudub | tulemus=NA | oodatav=18.05.2026 | staatus=- | variant=orig | raw=1052126
+  L11: area=label1 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1381 | d_empty=0.6876 | empty_like=ei
+  L12: area=label1 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1586 | d_empty=0.6834 | empty_like=ei
+  L13: area=label1 | nn=salami | centroid=salami | nearest_class=rulaad | d_pos=0.1024 | d_empty=0.5847 | empty_like=ei
+  L14: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=salami | d_pos=0.2217 | d_empty=0.6252 | empty_like=ei
+  L21: area=label2 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1353 | d_empty=0.7683 | empty_like=ei
+  L22: area=label2 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1605 | d_empty=0.7912 | empty_like=ei
+  L23: area=label2 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1150 | d_empty=0.7967 | empty_like=ei
+  L24: area=label2 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1630 | d_empty=0.7842 | empty_like=ei
+  P1: area=product_area | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.0911 | d_empty=0.8909 | empty_like=ei
+  P2: area=product_area | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.0751 | d_empty=0.8902 | empty_like=ei
+  P3: area=product_area | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.0938 | d_empty=0.8544 | empty_like=ei
+  P4: area=product_area | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.0777 | d_empty=0.8665 | empty_like=ei
+
+Pilt: takt_015.png
+Aeg videos: 138.781 s
+Triipkoodi lugemise aeg: 894.8 ms
+OCR aeg (4 kuupäeva ala): 1036.6 ms
+S3: EAN13: 4740574009820 | Toode: VSL keedusalaami 105 g | Säilivusaeg: 16.06.2026 | crop=full_frame
+  S1: kuupäev puudub | tulemus=NA | oodatav=18.05.2026 | staatus=- | variant=orig | raw=10202E
+  S2: kuupäev puudub | tulemus=NA | oodatav=18.05.2026 | staatus=- | variant=orig | raw=062076
+  S3: kuupäev olemas | tulemus=16.05.2026 | oodatav=18.05.2026 | staatus=vale | variant=orig | raw=16.05.2026
+  S4: kuupäev puudub | tulemus=NA | oodatav=18.05.2026 | staatus=- | variant=orig | raw=20
+  L11: area=label1 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.0943 | d_empty=0.6111 | empty_like=ei
+  L12: area=label1 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1946 | d_empty=0.7081 | empty_like=ei
+  L13: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.1287 | d_empty=0.6200 | empty_like=ei
+  L14: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=salami | d_pos=0.1943 | d_empty=0.6569 | empty_like=ei
+  L21: area=label2 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1011 | d_empty=0.7383 | empty_like=ei
+  L22: area=label2 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1153 | d_empty=0.7747 | empty_like=ei
+  L23: area=label2 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.0958 | d_empty=0.7930 | empty_like=ei
+  L24: area=label2 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1612 | d_empty=0.7993 | empty_like=ei
+  P1: area=product_area | nn=rulaad | centroid=rulaad | nearest_class=rulaad | d_pos=0.6714 | d_empty=0.2763 | empty_like=jah
+  P2: area=product_area | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1231 | d_empty=0.8844 | empty_like=ei
+  P3: area=product_area | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1325 | d_empty=0.8894 | empty_like=ei
+  P4: area=product_area | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.0636 | d_empty=0.8517 | empty_like=ei
+
+Pilt: takt_016.png
+Aeg videos: 153.756 s
+Triipkoodi lugemise aeg: 922.5 ms
+OCR aeg (4 kuupäeva ala): 1049.5 ms
+S3: EAN13: 4740574009820 | Toode: VSL keedusalaami 105 g | Säilivusaeg: 16.06.2026 | crop=full_frame
+S4: EAN13: 4740574009820 | Toode: VSL keedusalaami 105 g | Säilivusaeg: 16.06.2026 | crop=full_frame
+  S1: kuupäev olemas | tulemus=18.05.2026 | oodatav=18.05.2026 | staatus=oige | variant=clahe | raw=18052026
+  S2: kuupäev puudub | tulemus=NA | oodatav=18.05.2026 | staatus=- | variant=orig | raw=205207
+  S3: kuupäev olemas | tulemus=18.06.2026 | oodatav=18.05.2026 | staatus=vale | variant=orig | raw=18062026
+  S4: kuupäev puudub | tulemus=NA | oodatav=18.05.2026 | staatus=- | variant=orig | raw=13.0512026
+  L11: area=label1 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1671 | d_empty=0.6528 | empty_like=ei
+  L12: area=label1 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1457 | d_empty=0.7268 | empty_like=ei
+  L13: area=label1 | nn=salami | centroid=salami | nearest_class=veis | d_pos=0.1633 | d_empty=0.6520 | empty_like=ei
+  L14: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=salami | d_pos=0.1608 | d_empty=0.6628 | empty_like=ei
+  L21: area=label2 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1421 | d_empty=0.7790 | empty_like=ei
+  L22: area=label2 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1382 | d_empty=0.7678 | empty_like=ei
+  L23: area=label2 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1232 | d_empty=0.8081 | empty_like=ei
+  L24: area=label2 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1741 | d_empty=0.7592 | empty_like=ei
+  P1: area=product_area | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1237 | d_empty=0.9073 | empty_like=ei
+  P2: area=product_area | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1084 | d_empty=0.8642 | empty_like=ei
+  P3: area=product_area | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.0942 | d_empty=0.9007 | empty_like=ei
+  P4: area=product_area | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.0571 | d_empty=0.8712 | empty_like=ei
+
+Pilt: takt_017.png
+Aeg videos: 166.751 s
+Triipkoodi lugemise aeg: 1052.0 ms
+OCR aeg (4 kuupäeva ala): 1055.7 ms
+S4: EAN13: 4740574009820 | Toode: VSL keedusalaami 105 g | Säilivusaeg: 16.06.2026 | crop=full_frame
+  S1: kuupäev olemas | tulemus=18.05.2026 | oodatav=18.05.2026 | staatus=oige | variant=adaptive | raw=18052026
+  S2: kuupäev puudub | tulemus=NA | oodatav=18.05.2026 | staatus=- | variant=orig | raw=aorut
+  S3: kuupäev olemas | tulemus=16.05.2026 | oodatav=18.05.2026 | staatus=vale | variant=adaptive | raw=16.052026
+  S4: kuupäev olemas | tulemus=10.05.2023 | oodatav=18.05.2026 | staatus=vale | variant=orig | raw=10.05.2023
+  L11: area=label1 | nn=salami | centroid=salami | nearest_class=kalkun | d_pos=0.1575 | d_empty=0.6088 | empty_like=ei
+  L12: area=label1 | nn=kalkun | centroid=kalkun | nearest_class=kalkun | d_pos=0.1628 | d_empty=0.6862 | empty_like=ei
+  L13: area=label1 | nn=salami | centroid=salami | nearest_class=veis | d_pos=0.1632 | d_empty=0.6141 | empty_like=ei
+  L14: area=label1 | nn=veis | centroid=veis | nearest_class=salami | d_pos=0.1524 | d_empty=0.6403 | empty_like=ei
+  L21: area=label2 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1770 | d_empty=0.7367 | empty_like=ei
+  L22: area=label2 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1432 | d_empty=0.7382 | empty_like=ei
+  L23: area=label2 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.0642 | d_empty=0.7767 | empty_like=ei
+  L24: area=label2 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.2288 | d_empty=0.7574 | empty_like=ei
+  P1: area=product_area | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1583 | d_empty=0.8792 | empty_like=ei
+  P2: area=product_area | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.0859 | d_empty=0.8794 | empty_like=ei
+  P3: area=product_area | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1066 | d_empty=0.8933 | empty_like=ei
+  P4: area=product_area | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.0530 | d_empty=0.8768 | empty_like=ei
+
+Pilt: takt_018.png
+Aeg videos: 173.807 s
+Triipkoodi lugemise aeg: 1014.3 ms
+OCR aeg (4 kuupäeva ala): 1082.1 ms
+Triipkood: ei leitud
+  S1: kuupäev olemas | tulemus=18.05.2026 | oodatav=18.05.2026 | staatus=oige | variant=clahe | raw=18052026
+  S2: kuupäev puudub | tulemus=NA | oodatav=18.05.2026 | staatus=- | variant=orig | raw=0520
+  S3: kuupäev olemas | tulemus=18.05.2026 | oodatav=18.05.2026 | staatus=oige | variant=orig | raw=1805.2026
+  S4: kuupäev puudub | tulemus=NA | oodatav=18.05.2026 | staatus=- | variant=orig | raw=R0520L
+  L11: area=label1 | nn=salami | centroid=salami | nearest_class=kalkun | d_pos=0.1747 | d_empty=0.5965 | empty_like=ei
+  L12: area=label1 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1285 | d_empty=0.6731 | empty_like=ei
+  L13: area=label1 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1030 | d_empty=0.5623 | empty_like=ei
+  L14: area=label1 | nn=rulaad | centroid=rulaad | nearest_class=salami | d_pos=0.1681 | d_empty=0.6019 | empty_like=ei
+  L21: area=label2 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1272 | d_empty=0.7367 | empty_like=ei
+  L22: area=label2 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1426 | d_empty=0.7841 | empty_like=ei
+  L23: area=label2 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1313 | d_empty=0.7703 | empty_like=ei
+  L24: area=label2 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1957 | d_empty=0.7740 | empty_like=ei
+  P1: area=product_area | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1730 | d_empty=0.8598 | empty_like=ei
+  P2: area=product_area | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1132 | d_empty=0.8735 | empty_like=ei
+  P3: area=product_area | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.0761 | d_empty=0.8859 | empty_like=ei
+  P4: area=product_area | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.0688 | d_empty=0.8793 | empty_like=ei
+
+Pilt: takt_019.png
+Aeg videos: 181.768 s
+Triipkoodi lugemise aeg: 1019.3 ms
+OCR aeg (4 kuupäeva ala): 1041.1 ms
+Triipkood: ei leitud
+  S1: kuupäev puudub | tulemus=NA | oodatav=18.05.2026 | staatus=- | variant=orig | raw=1052026
+  S2: kuupäev puudub | tulemus=NA | oodatav=18.05.2026 | staatus=- | variant=orig | raw=OSO
+  S3: kuupäev olemas | tulemus=18.05.2026 | oodatav=18.05.2026 | staatus=oige | variant=orig | raw=18052026
+  S4: kuupäev olemas | tulemus=15.15.2026 | oodatav=18.05.2026 | staatus=vale | variant=orig | raw=15152026
+  L11: area=label1 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1108 | d_empty=0.6043 | empty_like=ei
+  L12: area=label1 | nn=salami | centroid=salami | nearest_class=kalkun | d_pos=0.1823 | d_empty=0.6969 | empty_like=ei
+  L13: area=label1 | nn=veis | centroid=veis | nearest_class=salami | d_pos=0.1335 | d_empty=0.5943 | empty_like=ei
+  L14: area=label1 | nn=veis | centroid=veis | nearest_class=veis | d_pos=0.1082 | d_empty=0.5940 | empty_like=ei
+  L21: area=label2 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1542 | d_empty=0.7443 | empty_like=ei
+  L22: area=label2 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1873 | d_empty=0.7645 | empty_like=ei
+  L23: area=label2 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1761 | d_empty=0.7894 | empty_like=ei
+  L24: area=label2 | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1706 | d_empty=0.7429 | empty_like=ei
+  P1: area=product_area | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1676 | d_empty=0.8873 | empty_like=ei
+  P2: area=product_area | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.1025 | d_empty=0.8867 | empty_like=ei
+  P3: area=product_area | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.0883 | d_empty=0.8934 | empty_like=ei
+  P4: area=product_area | nn=salami | centroid=salami | nearest_class=salami | d_pos=0.0984 | d_empty=0.8932 | empty_like=ei
+
+Statistika
+==========
+Takte kokku: 19
+Tuvastatud taktide arv: 8
+Triipkoodi tuvastusmäär: 42.11%
+Keskmine triipkoode pildi kohta: 0.579
+Pakke kokku OCR-is: 76
+Kuupäev olemas: 43
+Kuupäev puudub: 33
+Kuupäeva saagis: 56.58%
+Õige kuupäev: 30
+Vale kuupäev: 13
+Kuupäeva täpsus: 69.77%
+DINOv2 label1 slots kokku: 76
+DINOv2 label1 empty_like: 3
+DINOv2 label1 non-empty: 73
+DINOv2 label1 õige toode: 45
+DINOv2 label1 toote täpsus: 61.64%
+DINOv2 label2 slots kokku: 76
+DINOv2 label2 empty_like: 6
+DINOv2 label2 non-empty: 70
+DINOv2 label2 õige toode: 70
+DINOv2 label2 toote täpsus: 100.00%
+DINOv2 product_area slots kokku: 76
+DINOv2 product_area empty_like: 26
+DINOv2 product_area non-empty: 50
+DINOv2 product_area õige toode: 49
+DINOv2 product_area toote täpsus: 98.00%
+Triipkoodi keskmine lugemisaeg: 930.36 ms
+Triipkoodi maksimaalne lugemisaeg: 1295.75 ms
+OCR keskmine aeg takti kohta: 1059.26 ms
+OCR maksimaalne aeg takti kohta: 1094.94 ms

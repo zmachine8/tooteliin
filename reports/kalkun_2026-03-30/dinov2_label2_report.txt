@@ -1,0 +1,30 @@
+DINOv2 kokkuvõte: label2
+===========================
+
+Model: facebook/dinov2-small
+Device: mps
+Reference root: /Users/reimozukker/Documents/tooteliin/sildid_ja_toode
+
+Reference klassid
+----------------
+empty_label2: 13
+kalkun: 3
+rulaad: 3
+salami: 3
+veis: 3
+
+Kalibratsioon
+-----------
+leave_one_out_accuracy: 0.5833333333333334
+intra_positive_median: 0.2334175705909729
+positive_vs_empty_median: 0.7397646903991699
+empty_threshold: 0.4865911304950714
+
+Query statistika
+--------------
+slots kokku: 88
+empty_like: 0
+non-empty: 88
+õige toode: 88
+toote täpsus: 100.00%
+histogramm: dinov2_hist_label2.png
